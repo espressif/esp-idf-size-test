@@ -17,3 +17,8 @@ Generated from `examples/get-started/hello_world` for esp32 target with
 The linkage fails because `dram0_0_seg` is not big enough and there is no ELF file
 generated.
 
+
+## output_section_alignment.map
+
+Generated from `examples/wifi/iperf` for esp32 target. Output section can have
+alignment/fill at the beginning, prior the first input section.
