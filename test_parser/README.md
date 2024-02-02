@@ -22,3 +22,10 @@ generated.
 
 Generated from `examples/wifi/iperf` for esp32 target. Output section can have
 alignment/fill at the beginning, prior the first input section.
+
+
+## fill_input_section.map
+
+Input section may be followed by \*fill\*, which was not accounted because
+of bug in the parser, where it was not correctly setting "in_input_section"
+state.
