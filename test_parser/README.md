@@ -4,6 +4,11 @@ This directory contains link map files which should be correctly
 handled/parsed by parser in `mapfile.py`.
 
 
+## legacy directory
+
+This directory contains map files used for legacy version testing.
+
+
 ## common_input_section.map
 
 Generated from `examples/bluetooth/blufi` for esp32s3 target. This map contains
