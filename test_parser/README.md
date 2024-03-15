@@ -34,3 +34,10 @@ alignment/fill at the beginning, prior the first input section.
 Input section may be followed by \*fill\*, which was not accounted because
 of bug in the parser, where it was not correctly setting "in_input_section"
 state.
+
+
+## explicit_bytes.map
+
+Generated from `examples/get-started/hello_world` for esp32 target, with
+the updated linker script, which adds `LONG(0)` output section data.
+https://sourceware.org/binutils/docs/ld/Output-Section-Data.html.
