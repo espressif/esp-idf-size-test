@@ -41,3 +41,10 @@ state.
 Generated from `examples/get-started/hello_world` for esp32 target, with
 the updated linker script, which adds `LONG(0)` output section data.
 https://sourceware.org/binutils/docs/ld/Output-Section-Data.html.
+
+
+## input_section_out_of_range.map
+
+Generated from `examples/peripherals/lcd/mipi_dsi` for esp32p4 target.
+The linker map might include an output section featuring an input section with
+an address which is not within the output section range.
