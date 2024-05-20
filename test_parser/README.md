@@ -48,3 +48,11 @@ https://sourceware.org/binutils/docs/ld/Output-Section-Data.html.
 Generated from `examples/peripherals/lcd/mipi_dsi` for esp32p4 target.
 The linker map might include an output section featuring an input section with
 an address which is not within the output section range.
+
+
+## empty_sections.map
+
+Generated from `examples/get-started/hello_world` for esp32 target, with
+the updated linker script, which adds empty sections.
+https://github.com/espressif/esp-idf/commit/2b36636f6fb11e37671d384055db47ca2e0446ed
+The linker map might include an output section without address and size.
