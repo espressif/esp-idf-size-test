@@ -1,4 +1,5 @@
 {
+    "version": "1.0",
     "target": "esp32c2",
     "target_diff": "",
     "image_size": 117278,
