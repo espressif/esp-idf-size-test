@@ -56,3 +56,9 @@ Generated from `examples/get-started/hello_world` for esp32 target, with
 the updated linker script, which adds empty sections.
 https://github.com/espressif/esp-idf/commit/2b36636f6fb11e37671d384055db47ca2e0446ed
 The linker map might include an output section without address and size.
+
+
+## archive_with_spaces.map
+Created from `examples/get-started/hello_world` for the esp32 target, with some
+archive paths manually adjusted to include spaces.
+https://github.com/espressif/esp-idf-size/issues/5
