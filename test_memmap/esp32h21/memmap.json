@@ -2,15 +2,15 @@
     "version": "1.0",
     "target": "esp32h21",
     "target_diff": "",
-    "image_size": 109171,
+    "image_size": 113147,
     "image_size_diff": 0,
-    "project_path": "/tmp/tmp56n87063/build/hello_world.map",
+    "project_path": "/tmp/tmptv6k_vl8/build/hello_world.map",
     "project_path_diff": "",
     "memory_types": {
         "DIRAM": {
             "size": 244344,
             "size_diff": 0,
-            "used": 35100,
+            "used": 36921,
             "used_diff": 0,
             "sections": {
                 ".dram0.bss": {
@@ -633,17 +633,17 @@
                         },
                         "esp-idf/esp_mm/libesp_mm.a": {
                             "abbrev_name": "libesp_mm.a",
-                            "size": 44,
+                            "size": 48,
                             "size_diff": 0,
                             "object_files": {
                                 "esp_mmu_map.c.obj": {
                                     "abbrev_name": "esp_mmu_map.c.obj",
-                                    "size": 44,
+                                    "size": 48,
                                     "size_diff": 0,
                                     "symbols": {
                                         "s_mmu_ctx": {
                                             "abbrev_name": "s_mmu_ctx",
-                                            "size": 44,
+                                            "size": 48,
                                             "size_diff": 0
                                         }
                                     }
@@ -831,7 +831,7 @@
                 },
                 ".dram0.data": {
                     "abbrev_name": ".data",
-                    "size": 2985,
+                    "size": 3089,
                     "size_diff": 0,
                     "archives": {
                         "/home/fhrbata/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/no-rtti/libc.a": {
@@ -896,12 +896,12 @@
                         },
                         "esp-idf/esp_system/libesp_system.a": {
                             "abbrev_name": "libesp_system.a",
-                            "size": 45,
+                            "size": 41,
                             "size_diff": 0,
                             "object_files": {
                                 "panic.c.obj": {
                                     "abbrev_name": "panic.c.obj",
-                                    "size": 12,
+                                    "size": 16,
                                     "size_diff": 0,
                                     "symbols": {
                                         "s_panic_uart": {
@@ -913,17 +913,10 @@
                                             "abbrev_name": "rtc_wdt_ctx",
                                             "size": 8,
                                             "size_diff": 0
-                                        }
-                                    }
-                                },
-                                "panic_handler.c.obj": {
-                                    "abbrev_name": "panic_handler.c.obj",
-                                    "size": 8,
-                                    "size_diff": 0,
-                                    "symbols": {
-                                        "wdt0_context": {
-                                            "abbrev_name": "wdt0_context",
-                                            "size": 8,
+                                        },
+                                        "g_panic_entry_count": {
+                                            "abbrev_name": "g_panic_entry_count",
+                                            "size": 4,
                                             "size_diff": 0
                                         }
                                     }
@@ -1037,7 +1030,7 @@
                         },
                         "esp-idf/spi_flash/libspi_flash.a": {
                             "abbrev_name": "libspi_flash.a",
-                            "size": 659,
+                            "size": 733,
                             "size_diff": 0,
                             "object_files": {
                                 "spi_flash_chip_drivers.c.obj": {
@@ -1196,12 +1189,27 @@
                                 },
                                 "memspi_host_driver.c.obj": {
                                     "abbrev_name": "memspi_host_driver.c.obj",
-                                    "size": 183,
+                                    "size": 257,
                                     "size_diff": 0,
                                     "symbols": {
                                         "esp_flash_default_host": {
                                             "abbrev_name": "esp_flash_default_host",
                                             "size": 88,
+                                            "size_diff": 0
+                                        },
+                                        "__func__.0": {
+                                            "abbrev_name": "__func__.0",
+                                            "size": 25,
+                                            "size_diff": 0
+                                        },
+                                        "__func__.1": {
+                                            "abbrev_name": "__func__.1",
+                                            "size": 24,
+                                            "size_diff": 0
+                                        },
+                                        "__func__.2": {
+                                            "abbrev_name": "__func__.2",
+                                            "size": 25,
                                             "size_diff": 0
                                         },
                                         "TAG": {
@@ -1239,17 +1247,17 @@
                         },
                         "esp-idf/freertos/libfreertos.a": {
                             "abbrev_name": "libfreertos.a",
-                            "size": 88,
+                            "size": 94,
                             "size_diff": 0,
                             "object_files": {
                                 "tasks.c.obj": {
                                     "abbrev_name": "tasks.c.obj",
-                                    "size": 8,
+                                    "size": 14,
                                     "size_diff": 0,
                                     "symbols": {
                                         "FreeRTOS_openocd_params": {
                                             "abbrev_name": "FreeRTOS_openocd_params",
-                                            "size": 8,
+                                            "size": 14,
                                             "size_diff": 0
                                         }
                                     }
@@ -1301,17 +1309,17 @@
                         },
                         "esp-idf/hal/libhal.a": {
                             "abbrev_name": "libhal.a",
-                            "size": 1670,
+                            "size": 1690,
                             "size_diff": 0,
                             "object_files": {
                                 "cache_hal.c.obj": {
                                     "abbrev_name": "cache_hal.c.obj",
-                                    "size": 1470,
+                                    "size": 1490,
                                     "size_diff": 0,
                                     "symbols": {
                                         ".rodata.s_update_cache_state.str1.4": {
                                             "abbrev_name": ".rodata.s_update_cache_state.str1.4",
-                                            "size": 1366,
+                                            "size": 1386,
                                             "size_diff": 0
                                         },
                                         "__func__.0": {
@@ -1401,12 +1409,12 @@
                 },
                 ".iram0.text": {
                     "abbrev_name": ".text",
-                    "size": 28474,
+                    "size": 30208,
                     "size_diff": 0,
                     "archives": {
                         "esp-idf/riscv/libriscv.a": {
                             "abbrev_name": "libriscv.a",
-                            "size": 844,
+                            "size": 848,
                             "size_diff": 0,
                             "object_files": {
                                 "vectors_intc.S.obj": {
@@ -1454,6 +1462,18 @@
                                             "size_diff": 0
                                         }
                                     }
+                                },
+                                "rv_utils.c.obj": {
+                                    "abbrev_name": "rv_utils.c.obj",
+                                    "size": 4,
+                                    "size_diff": 0,
+                                    "symbols": {
+                                        "rv_utils_dbgr_is_attached()": {
+                                            "abbrev_name": "rv_utils_dbgr_is_attached()",
+                                            "size": 4,
+                                            "size_diff": 0
+                                        }
+                                    }
                                 }
                             }
                         },
@@ -1495,34 +1515,34 @@
                         },
                         "esp-idf/esp_system/libesp_system.a": {
                             "abbrev_name": "libesp_system.a",
-                            "size": 1606,
+                            "size": 1850,
                             "size_diff": 0,
                             "object_files": {
                                 "cpu_start.c.obj": {
                                     "abbrev_name": "cpu_start.c.obj",
-                                    "size": 360,
+                                    "size": 400,
                                     "size_diff": 0,
                                     "symbols": {
                                         "call_start_cpu0()": {
                                             "abbrev_name": "call_start_cpu0()",
-                                            "size": 360,
+                                            "size": 400,
                                             "size_diff": 0
                                         }
                                     }
                                 },
                                 "system_internal.c.obj": {
                                     "abbrev_name": "system_internal.c.obj",
-                                    "size": 494,
+                                    "size": 698,
                                     "size_diff": 0,
                                     "symbols": {
                                         "esp_system_reset_modules_on_exit()": {
                                             "abbrev_name": "esp_system_reset_modules_on_exit()",
-                                            "size": 246,
+                                            "size": 446,
                                             "size_diff": 0
                                         },
                                         "esp_restart_noos()": {
                                             "abbrev_name": "esp_restart_noos()",
-                                            "size": 248,
+                                            "size": 252,
                                             "size_diff": 0
                                         }
                                     }
@@ -1674,7 +1694,7 @@
                         },
                         "esp-idf/hal/libhal.a": {
                             "abbrev_name": "libhal.a",
-                            "size": 4164,
+                            "size": 5778,
                             "size_diff": 0,
                             "object_files": {
                                 "efuse_hal.c.obj": {
@@ -1820,9 +1840,14 @@
                                 },
                                 "spi_flash_encrypt_hal_iram.c.obj": {
                                     "abbrev_name": "spi_flash_encrypt_hal_iram.c.obj",
-                                    "size": 260,
+                                    "size": 390,
                                     "size_diff": 0,
                                     "symbols": {
+                                        "spi_flash_encrypt_ll_enable_pseudo_rounds()": {
+                                            "abbrev_name": "spi_flash_encrypt_ll_enable_pseudo_rounds()",
+                                            "size": 116,
+                                            "size_diff": 0
+                                        },
                                         "spi_flash_encrypt_ll_plaintext_save()": {
                                             "abbrev_name": "spi_flash_encrypt_ll_plaintext_save()",
                                             "size": 62,
@@ -1857,12 +1882,79 @@
                                             "abbrev_name": "spi_flash_encryption_hal_check()",
                                             "size": 10,
                                             "size_diff": 0
+                                        },
+                                        "spi_flash_encryption_hal_enable_pseudo_rounds()": {
+                                            "abbrev_name": "spi_flash_encryption_hal_enable_pseudo_rounds()",
+                                            "size": 14,
+                                            "size_diff": 0
+                                        }
+                                    }
+                                },
+                                "spi_flash_hal_gpspi.c.obj": {
+                                    "abbrev_name": "spi_flash_hal_gpspi.c.obj",
+                                    "size": 1456,
+                                    "size_diff": 0,
+                                    "symbols": {
+                                        "gpspi_flash_ll_set_read_mode()": {
+                                            "abbrev_name": "gpspi_flash_ll_set_read_mode()",
+                                            "size": 172,
+                                            "size_diff": 0
+                                        },
+                                        "gpspi_flash_ll_set_buffer_data()": {
+                                            "abbrev_name": "gpspi_flash_ll_set_buffer_data()",
+                                            "size": 102,
+                                            "size_diff": 0
+                                        },
+                                        "gpspi_flash_ll_get_buffer_data()": {
+                                            "abbrev_name": "gpspi_flash_ll_get_buffer_data()",
+                                            "size": 128,
+                                            "size_diff": 0
+                                        },
+                                        "spi_flash_hal_gpspi_poll_cmd_done()": {
+                                            "abbrev_name": "spi_flash_hal_gpspi_poll_cmd_done()",
+                                            "size": 12,
+                                            "size_diff": 0
+                                        },
+                                        "spi_flash_hal_gpspi_device_config()": {
+                                            "abbrev_name": "spi_flash_hal_gpspi_device_config()",
+                                            "size": 214,
+                                            "size_diff": 0
+                                        },
+                                        "spi_flash_hal_gpspi_configure_host_io_mode()": {
+                                            "abbrev_name": "spi_flash_hal_gpspi_configure_host_io_mode()",
+                                            "size": 294,
+                                            "size_diff": 0
+                                        },
+                                        "spi_flash_hal_gpspi_common_command()": {
+                                            "abbrev_name": "spi_flash_hal_gpspi_common_command()",
+                                            "size": 332,
+                                            "size_diff": 0
+                                        },
+                                        "spi_flash_hal_gpspi_read()": {
+                                            "abbrev_name": "spi_flash_hal_gpspi_read()",
+                                            "size": 180,
+                                            "size_diff": 0
+                                        },
+                                        "spi_flash_hal_gpspi_supports_direct_write()": {
+                                            "abbrev_name": "spi_flash_hal_gpspi_supports_direct_write()",
+                                            "size": 4,
+                                            "size_diff": 0
+                                        },
+                                        "spi_flash_hal_gpspi_supports_direct_read()": {
+                                            "abbrev_name": "spi_flash_hal_gpspi_supports_direct_read()",
+                                            "size": 4,
+                                            "size_diff": 0
+                                        },
+                                        "spi_flash_hal_gpspi_check_status()": {
+                                            "abbrev_name": "spi_flash_hal_gpspi_check_status()",
+                                            "size": 14,
+                                            "size_diff": 0
                                         }
                                     }
                                 },
                                 "spi_flash_hal_iram.c.obj": {
                                     "abbrev_name": "spi_flash_hal_iram.c.obj",
-                                    "size": 1540,
+                                    "size": 1568,
                                     "size_diff": 0,
                                     "symbols": {
                                         "spimem_flash_ll_set_read_mode()": {
@@ -1892,7 +1984,7 @@
                                         },
                                         "spi_flash_hal_configure_host_io_mode()": {
                                             "abbrev_name": "spi_flash_hal_configure_host_io_mode()",
-                                            "size": 310,
+                                            "size": 338,
                                             "size_diff": 0
                                         },
                                         "spi_flash_hal_common_command()": {
@@ -1956,7 +2048,7 @@
                         },
                         "esp-idf/heap/libheap.a": {
                             "abbrev_name": "libheap.a",
-                            "size": 1172,
+                            "size": 1176,
                             "size_diff": 0,
                             "object_files": {
                                 "heap_caps.c.obj": {
@@ -1998,7 +2090,7 @@
                                 },
                                 "heap_caps_base.c.obj": {
                                     "abbrev_name": "heap_caps_base.c.obj",
-                                    "size": 674,
+                                    "size": 678,
                                     "size_diff": 0,
                                     "symbols": {
                                         "aligned_or_unaligned_alloc()": {
@@ -2013,7 +2105,7 @@
                                         },
                                         "heap_caps_aligned_alloc_base()": {
                                             "abbrev_name": "heap_caps_aligned_alloc_base()",
-                                            "size": 176,
+                                            "size": 178,
                                             "size_diff": 0
                                         },
                                         "heap_caps_malloc_base()": {
@@ -2023,7 +2115,7 @@
                                         },
                                         "heap_caps_realloc_base()": {
                                             "abbrev_name": "heap_caps_realloc_base()",
-                                            "size": 294,
+                                            "size": 296,
                                             "size_diff": 0
                                         },
                                         "heap_caps_calloc_base()": {
@@ -2064,7 +2156,7 @@
                         },
                         "esp-idf/esp_hw_support/libesp_hw_support.a": {
                             "abbrev_name": "libesp_hw_support.a",
-                            "size": 1082,
+                            "size": 906,
                             "size_diff": 0,
                             "object_files": {
                                 "esp_clk.c.obj": {
@@ -2116,33 +2208,6 @@
                                         }
                                     }
                                 },
-                                "periph_ctrl.c.obj": {
-                                    "abbrev_name": "periph_ctrl.c.obj",
-                                    "size": 106,
-                                    "size_diff": 0,
-                                    "symbols": {
-                                        "periph_rcc_enter()": {
-                                            "abbrev_name": "periph_rcc_enter()",
-                                            "size": 26,
-                                            "size_diff": 0
-                                        },
-                                        "periph_rcc_exit()": {
-                                            "abbrev_name": "periph_rcc_exit()",
-                                            "size": 26,
-                                            "size_diff": 0
-                                        },
-                                        "periph_rcc_acquire_enter()": {
-                                            "abbrev_name": "periph_rcc_acquire_enter()",
-                                            "size": 30,
-                                            "size_diff": 0
-                                        },
-                                        "periph_rcc_acquire_exit()": {
-                                            "abbrev_name": "periph_rcc_acquire_exit()",
-                                            "size": 24,
-                                            "size_diff": 0
-                                        }
-                                    }
-                                },
                                 "rtc_module.c.obj": {
                                     "abbrev_name": "rtc_module.c.obj",
                                     "size": 4,
@@ -2162,58 +2227,56 @@
                                 },
                                 "cpu.c.obj": {
                                     "abbrev_name": "cpu.c.obj",
-                                    "size": 28,
+                                    "size": 32,
                                     "size_diff": 0,
                                     "symbols": {
                                         "esp_cpu_wait_for_intr()": {
                                             "abbrev_name": "esp_cpu_wait_for_intr()",
-                                            "size": 28,
+                                            "size": 32,
                                             "size_diff": 0
                                         }
                                     }
                                 },
                                 "esp_memory_utils.c.obj": {
                                     "abbrev_name": "esp_memory_utils.c.obj",
-                                    "size": 16,
+                                    "size": 104,
                                     "size_diff": 0,
                                     "symbols": {
+                                        "esp_ptr_executable()": {
+                                            "abbrev_name": "esp_ptr_executable()",
+                                            "size": 74,
+                                            "size_diff": 0
+                                        },
                                         "esp_ptr_byte_accessible()": {
                                             "abbrev_name": "esp_ptr_byte_accessible()",
-                                            "size": 16,
+                                            "size": 30,
                                             "size_diff": 0
                                         }
                                     }
                                 },
-                                "rtc_clk.c.obj": {
-                                    "abbrev_name": "rtc_clk.c.obj",
-                                    "size": 122,
+                                "periph_ctrl.c.obj": {
+                                    "abbrev_name": "periph_ctrl.c.obj",
+                                    "size": 106,
                                     "size_diff": 0,
                                     "symbols": {
-                                        "rtc_clk_slow_src_get()": {
-                                            "abbrev_name": "rtc_clk_slow_src_get()",
-                                            "size": 58,
+                                        "periph_rcc_acquire_enter()": {
+                                            "abbrev_name": "periph_rcc_acquire_enter()",
+                                            "size": 30,
                                             "size_diff": 0
                                         },
-                                        "rtc_clk_slow_freq_get_hz()": {
-                                            "abbrev_name": "rtc_clk_slow_freq_get_hz()",
-                                            "size": 64,
-                                            "size_diff": 0
-                                        }
-                                    }
-                                },
-                                "rtc_time.c.obj": {
-                                    "abbrev_name": "rtc_time.c.obj",
-                                    "size": 146,
-                                    "size_diff": 0,
-                                    "symbols": {
-                                        "rtc_time_get()": {
-                                            "abbrev_name": "rtc_time_get()",
-                                            "size": 56,
+                                        "periph_rcc_acquire_exit()": {
+                                            "abbrev_name": "periph_rcc_acquire_exit()",
+                                            "size": 24,
                                             "size_diff": 0
                                         },
-                                        "enable_timer_group0_for_calibration()": {
-                                            "abbrev_name": "enable_timer_group0_for_calibration()",
-                                            "size": 90,
+                                        "periph_rcc_enter()": {
+                                            "abbrev_name": "periph_rcc_enter()",
+                                            "size": 26,
+                                            "size_diff": 0
+                                        },
+                                        "periph_rcc_exit()": {
+                                            "abbrev_name": "periph_rcc_exit()",
+                                            "size": 26,
                                             "size_diff": 0
                                         }
                                     }
@@ -2239,7 +2302,7 @@
                         },
                         "esp-idf/newlib/libnewlib.a": {
                             "abbrev_name": "libnewlib.a",
-                            "size": 1816,
+                            "size": 1578,
                             "size_diff": 0,
                             "object_files": {
                                 "locks.c.obj": {
@@ -2359,35 +2422,6 @@
                                         }
                                     }
                                 },
-                                "time.c.obj": {
-                                    "abbrev_name": "time.c.obj",
-                                    "size": 184,
-                                    "size_diff": 0,
-                                    "symbols": {
-                                        "_gettimeofday_r()": {
-                                            "abbrev_name": "_gettimeofday_r()",
-                                            "size": 114,
-                                            "size_diff": 0
-                                        },
-                                        "_times_r()": {
-                                            "abbrev_name": "_times_r()",
-                                            "size": 70,
-                                            "size_diff": 0
-                                        }
-                                    }
-                                },
-                                "reent_init.c.obj": {
-                                    "abbrev_name": "reent_init.c.obj",
-                                    "size": 54,
-                                    "size_diff": 0,
-                                    "symbols": {
-                                        "esp_reent_init()": {
-                                            "abbrev_name": "esp_reent_init()",
-                                            "size": 54,
-                                            "size_diff": 0
-                                        }
-                                    }
-                                },
                                 "abort.c.obj": {
                                     "abbrev_name": "abort.c.obj",
                                     "size": 126,
@@ -2500,17 +2534,17 @@
                         },
                         "esp-idf/bootloader_support/libbootloader_support.a": {
                             "abbrev_name": "libbootloader_support.a",
-                            "size": 632,
+                            "size": 644,
                             "size_diff": 0,
                             "object_files": {
                                 "bootloader_flash.c.obj": {
                                     "abbrev_name": "bootloader_flash.c.obj",
-                                    "size": 618,
+                                    "size": 630,
                                     "size_diff": 0,
                                     "symbols": {
                                         "bootloader_flash_execute_command_common()": {
                                             "abbrev_name": "bootloader_flash_execute_command_common()",
-                                            "size": 542,
+                                            "size": 554,
                                             "size_diff": 0
                                         },
                                         "bootloader_execute_flash_command()": {
@@ -2541,7 +2575,7 @@
                         },
                         "esp-idf/esp_mm/libesp_mm.a": {
                             "abbrev_name": "libesp_mm.a",
-                            "size": 584,
+                            "size": 618,
                             "size_diff": 0,
                             "object_files": {
                                 "esp_mmu_map.c.obj": {
@@ -2578,21 +2612,31 @@
                                 },
                                 "heap_align_hw.c.obj": {
                                     "abbrev_name": "heap_align_hw.c.obj",
-                                    "size": 152,
+                                    "size": 150,
                                     "size_diff": 0,
                                     "symbols": {
                                         "esp_heap_adjust_alignment_to_hw()": {
                                             "abbrev_name": "esp_heap_adjust_alignment_to_hw()",
-                                            "size": 152,
+                                            "size": 150,
                                             "size_diff": 0
                                         }
                                     }
                                 },
                                 "esp_cache.c.obj": {
                                     "abbrev_name": "esp_cache.c.obj",
-                                    "size": 74,
+                                    "size": 110,
                                     "size_diff": 0,
                                     "symbols": {
+                                        "esp_cache_suspend_ext_mem_cache()": {
+                                            "abbrev_name": "esp_cache_suspend_ext_mem_cache()",
+                                            "size": 18,
+                                            "size_diff": 0
+                                        },
+                                        "esp_cache_resume_ext_mem_cache()": {
+                                            "abbrev_name": "esp_cache_resume_ext_mem_cache()",
+                                            "size": 18,
+                                            "size_diff": 0
+                                        },
                                         "esp_cache_get_alignment()": {
                                             "abbrev_name": "esp_cache_get_alignment()",
                                             "size": 74,
@@ -2604,17 +2648,17 @@
                         },
                         "esp-idf/spi_flash/libspi_flash.a": {
                             "abbrev_name": "libspi_flash.a",
-                            "size": 5408,
+                            "size": 5690,
                             "size_diff": 0,
                             "object_files": {
                                 "cache_utils.c.obj": {
                                     "abbrev_name": "cache_utils.c.obj",
-                                    "size": 138,
+                                    "size": 126,
                                     "size_diff": 0,
                                     "symbols": {
                                         "spi_flash_disable_cache()": {
                                             "abbrev_name": "spi_flash_disable_cache()",
-                                            "size": 18,
+                                            "size": 12,
                                             "size_diff": 0
                                         },
                                         "spi_flash_disable_interrupts_caches_and_other_cpu()": {
@@ -2624,7 +2668,7 @@
                                         },
                                         "spi_flash_restore_cache()": {
                                             "abbrev_name": "spi_flash_restore_cache()",
-                                            "size": 18,
+                                            "size": 12,
                                             "size_diff": 0
                                         },
                                         "spi_flash_enable_interrupts_caches_and_other_cpu()": {
@@ -2685,27 +2729,12 @@
                                 },
                                 "esp_flash_api.c.obj": {
                                     "abbrev_name": "esp_flash_api.c.obj",
-                                    "size": 1098,
+                                    "size": 1108,
                                     "size_diff": 0,
                                     "symbols": {
-                                        "spiflash_start_default()": {
-                                            "abbrev_name": "spiflash_start_default()",
-                                            "size": 40,
-                                            "size_diff": 0
-                                        },
-                                        "spiflash_end_default()": {
-                                            "abbrev_name": "spiflash_end_default()",
-                                            "size": 34,
-                                            "size_diff": 0
-                                        },
-                                        "flash_end_flush_cache()": {
-                                            "abbrev_name": "flash_end_flush_cache()",
-                                            "size": 84,
-                                            "size_diff": 0
-                                        },
-                                        "esp_flash_chip_driver_initialized()": {
-                                            "abbrev_name": "esp_flash_chip_driver_initialized()",
-                                            "size": 12,
+                                        "read_id_core()": {
+                                            "abbrev_name": "read_id_core()",
+                                            "size": 130,
                                             "size_diff": 0
                                         },
                                         "check_chip_pointer_default()": {
@@ -2718,9 +2747,9 @@
                                             "size": 162,
                                             "size_diff": 0
                                         },
-                                        "read_id_core()": {
-                                            "abbrev_name": "read_id_core()",
-                                            "size": 128,
+                                        "esp_flash_chip_driver_initialized()": {
+                                            "abbrev_name": "esp_flash_chip_driver_initialized()",
+                                            "size": 12,
                                             "size_diff": 0
                                         },
                                         "esp_flash_get_physical_size()": {
@@ -2728,51 +2757,71 @@
                                             "size": 100,
                                             "size_diff": 0
                                         },
-                                        "esp_flash_init_main()": {
-                                            "abbrev_name": "esp_flash_init_main()",
-                                            "size": 444,
-                                            "size_diff": 0
-                                        },
                                         "esp_flash_get_size()": {
                                             "abbrev_name": "esp_flash_get_size()",
-                                            "size": 54,
+                                            "size": 56,
+                                            "size_diff": 0
+                                        },
+                                        "esp_flash_init_main()": {
+                                            "abbrev_name": "esp_flash_init_main()",
+                                            "size": 450,
+                                            "size_diff": 0
+                                        },
+                                        "flash_end_flush_cache()": {
+                                            "abbrev_name": "flash_end_flush_cache()",
+                                            "size": 84,
+                                            "size_diff": 0
+                                        },
+                                        "spiflash_end_default()": {
+                                            "abbrev_name": "spiflash_end_default()",
+                                            "size": 34,
+                                            "size_diff": 0
+                                        },
+                                        "spiflash_start_default()": {
+                                            "abbrev_name": "spiflash_start_default()",
+                                            "size": 40,
                                             "size_diff": 0
                                         }
                                     }
                                 },
                                 "spi_flash_os_func_app.c.obj": {
                                     "abbrev_name": "spi_flash_os_func_app.c.obj",
-                                    "size": 480,
+                                    "size": 478,
                                     "size_diff": 0,
                                     "symbols": {
-                                        "spi_flash_os_yield()": {
-                                            "abbrev_name": "spi_flash_os_yield()",
-                                            "size": 42,
-                                            "size_diff": 0
-                                        },
                                         "on_spi_check_yield()": {
                                             "abbrev_name": "on_spi_check_yield()",
                                             "size": 62,
                                             "size_diff": 0
                                         },
-                                        "spi_flash_os_check_yield()": {
-                                            "abbrev_name": "spi_flash_os_check_yield()",
-                                            "size": 70,
+                                        "cache_enable()": {
+                                            "abbrev_name": "cache_enable()",
+                                            "size": 12,
                                             "size_diff": 0
                                         },
-                                        "release_buffer_malloc()": {
-                                            "abbrev_name": "release_buffer_malloc()",
+                                        "spi1_end()": {
+                                            "abbrev_name": "spi1_end()",
+                                            "size": 28,
+                                            "size_diff": 0
+                                        },
+                                        "cache_disable()": {
+                                            "abbrev_name": "cache_disable()",
+                                            "size": 12,
+                                            "size_diff": 0
+                                        },
+                                        "spi1_start()": {
+                                            "abbrev_name": "spi1_start()",
                                             "size": 16,
-                                            "size_diff": 0
-                                        },
-                                        "get_buffer_malloc()": {
-                                            "abbrev_name": "get_buffer_malloc()",
-                                            "size": 104,
                                             "size_diff": 0
                                         },
                                         "delay_us()": {
                                             "abbrev_name": "delay_us()",
                                             "size": 22,
+                                            "size_diff": 0
+                                        },
+                                        "get_buffer_malloc()": {
+                                            "abbrev_name": "get_buffer_malloc()",
+                                            "size": 104,
                                             "size_diff": 0
                                         },
                                         "main_flash_op_status()": {
@@ -2785,24 +2834,19 @@
                                             "size": 76,
                                             "size_diff": 0
                                         },
-                                        "cache_enable()": {
-                                            "abbrev_name": "cache_enable()",
-                                            "size": 14,
-                                            "size_diff": 0
-                                        },
-                                        "spi1_end()": {
-                                            "abbrev_name": "spi1_end()",
-                                            "size": 28,
-                                            "size_diff": 0
-                                        },
-                                        "cache_disable()": {
-                                            "abbrev_name": "cache_disable()",
-                                            "size": 14,
-                                            "size_diff": 0
-                                        },
-                                        "spi1_start()": {
-                                            "abbrev_name": "spi1_start()",
+                                        "release_buffer_malloc()": {
+                                            "abbrev_name": "release_buffer_malloc()",
                                             "size": 16,
+                                            "size_diff": 0
+                                        },
+                                        "spi_flash_os_check_yield()": {
+                                            "abbrev_name": "spi_flash_os_check_yield()",
+                                            "size": 72,
+                                            "size_diff": 0
+                                        },
+                                        "spi_flash_os_yield()": {
+                                            "abbrev_name": "spi_flash_os_yield()",
+                                            "size": 42,
                                             "size_diff": 0
                                         }
                                     }
@@ -2812,11 +2856,6 @@
                                     "size": 62,
                                     "size_diff": 0,
                                     "symbols": {
-                                        "delay_us()": {
-                                            "abbrev_name": "delay_us()",
-                                            "size": 22,
-                                            "size_diff": 0
-                                        },
                                         "end()": {
                                             "abbrev_name": "end()",
                                             "size": 20,
@@ -2825,6 +2864,11 @@
                                         "start()": {
                                             "abbrev_name": "start()",
                                             "size": 20,
+                                            "size_diff": 0
+                                        },
+                                        "delay_us()": {
+                                            "abbrev_name": "delay_us()",
+                                            "size": 22,
                                             "size_diff": 0
                                         }
                                     }
@@ -2848,12 +2892,22 @@
                                 },
                                 "memspi_host_driver.c.obj": {
                                     "abbrev_name": "memspi_host_driver.c.obj",
-                                    "size": 416,
+                                    "size": 754,
                                     "size_diff": 0,
                                     "symbols": {
                                         "memspi_host_read_status_hs()": {
                                             "abbrev_name": "memspi_host_read_status_hs()",
                                             "size": 64,
+                                            "size_diff": 0
+                                        },
+                                        "memspi_host_erase_chip()": {
+                                            "abbrev_name": "memspi_host_erase_chip()",
+                                            "size": 40,
+                                            "size_diff": 0
+                                        },
+                                        "memspi_host_set_write_protect()": {
+                                            "abbrev_name": "memspi_host_set_write_protect()",
+                                            "size": 46,
                                             "size_diff": 0
                                         },
                                         "memspi_host_write_data_slicer()": {
@@ -2876,16 +2930,31 @@
                                             "size": 38,
                                             "size_diff": 0
                                         },
+                                        "memspi_host_erase_sector()": {
+                                            "abbrev_name": "memspi_host_erase_sector()",
+                                            "size": 76,
+                                            "size_diff": 0
+                                        },
+                                        "memspi_host_erase_block()": {
+                                            "abbrev_name": "memspi_host_erase_block()",
+                                            "size": 76,
+                                            "size_diff": 0
+                                        },
+                                        "memspi_host_program_page()": {
+                                            "abbrev_name": "memspi_host_program_page()",
+                                            "size": 86,
+                                            "size_diff": 0
+                                        },
                                         "memspi_host_init_pointers()": {
                                             "abbrev_name": "memspi_host_init_pointers()",
-                                            "size": 60,
+                                            "size": 74,
                                             "size_diff": 0
                                         }
                                     }
                                 },
                                 "spi_flash_chip_generic.c.obj": {
                                     "abbrev_name": "spi_flash_chip_generic.c.obj",
-                                    "size": 2964,
+                                    "size": 2912,
                                     "size_diff": 0,
                                     "symbols": {
                                         "spi_flash_chip_generic_detect_size()": {
@@ -2943,11 +3012,6 @@
                                             "size": 356,
                                             "size_diff": 0
                                         },
-                                        "spi_flash_chip_generic_write_encrypted()": {
-                                            "abbrev_name": "spi_flash_chip_generic_write_encrypted()",
-                                            "size": 234,
-                                            "size_diff": 0
-                                        },
                                         "spi_flash_chip_generic_get_caps()": {
                                             "abbrev_name": "spi_flash_chip_generic_get_caps()",
                                             "size": 146,
@@ -2973,6 +3037,11 @@
                                             "size": 20,
                                             "size_diff": 0
                                         },
+                                        "spi_flash_chip_generic_suspend_cmd_conf()": {
+                                            "abbrev_name": "spi_flash_chip_generic_suspend_cmd_conf()",
+                                            "size": 54,
+                                            "size_diff": 0
+                                        },
                                         "spi_flash_chip_generic_read()": {
                                             "abbrev_name": "spi_flash_chip_generic_read()",
                                             "size": 220,
@@ -2993,9 +3062,9 @@
                                             "size": 70,
                                             "size_diff": 0
                                         },
-                                        "spi_flash_chip_generic_suspend_cmd_conf()": {
-                                            "abbrev_name": "spi_flash_chip_generic_suspend_cmd_conf()",
-                                            "size": 118,
+                                        "spi_flash_chip_generic_write_encrypted()": {
+                                            "abbrev_name": "spi_flash_chip_generic_write_encrypted()",
+                                            "size": 246,
                                             "size_diff": 0
                                         },
                                         "spi_flash_chip_generic_read_unique_id()": {
@@ -3029,7 +3098,7 @@
                         },
                         "esp-idf/esp_rom/libesp_rom.a": {
                             "abbrev_name": "libesp_rom.a",
-                            "size": 616,
+                            "size": 580,
                             "size_diff": 0,
                             "object_files": {
                                 "esp_rom_systimer.c.obj": {
@@ -3046,12 +3115,12 @@
                                 },
                                 "esp_rom_wdt.c.obj": {
                                     "abbrev_name": "esp_rom_wdt.c.obj",
-                                    "size": 586,
+                                    "size": 550,
                                     "size_diff": 0,
                                     "symbols": {
                                         "wdt_hal_init()": {
                                             "abbrev_name": "wdt_hal_init()",
-                                            "size": 586,
+                                            "size": 550,
                                             "size_diff": 0
                                         }
                                     }
@@ -3060,12 +3129,12 @@
                         },
                         "esp-idf/freertos/libfreertos.a": {
                             "abbrev_name": "libfreertos.a",
-                            "size": 10090,
+                            "size": 10080,
                             "size_diff": 0,
                             "object_files": {
                                 "queue.c.obj": {
                                     "abbrev_name": "queue.c.obj",
-                                    "size": 3050,
+                                    "size": 3048,
                                     "size_diff": 0,
                                     "symbols": {
                                         "prvGetDisinheritPriorityAfterTimeout()": {
@@ -3135,7 +3204,7 @@
                                         },
                                         "prvInitialiseMutex()": {
                                             "abbrev_name": "prvInitialiseMutex()",
-                                            "size": 72,
+                                            "size": 70,
                                             "size_diff": 0
                                         },
                                         "xQueueCreateMutex()": {
@@ -3182,7 +3251,7 @@
                                 },
                                 "port.c.obj": {
                                     "abbrev_name": "port.c.obj",
-                                    "size": 938,
+                                    "size": 896,
                                     "size_diff": 0,
                                     "symbols": {
                                         "vPortTaskWrapper()": {
@@ -3192,7 +3261,7 @@
                                         },
                                         "vPortTLSPointersDelCb()": {
                                             "abbrev_name": "vPortTLSPointersDelCb()",
-                                            "size": 152,
+                                            "size": 116,
                                             "size_diff": 0
                                         },
                                         "pxPortInitialiseStack()": {
@@ -3217,7 +3286,7 @@
                                         },
                                         "vPortEnterCritical()": {
                                             "abbrev_name": "vPortEnterCritical()",
-                                            "size": 48,
+                                            "size": 46,
                                             "size_diff": 0
                                         },
                                         "vPortExitCritical()": {
@@ -3232,12 +3301,12 @@
                                         },
                                         "vPortYield()": {
                                             "abbrev_name": "vPortYield()",
-                                            "size": 62,
+                                            "size": 60,
                                             "size_diff": 0
                                         },
                                         "xPortStartScheduler()": {
                                             "abbrev_name": "xPortStartScheduler()",
-                                            "size": 106,
+                                            "size": 104,
                                             "size_diff": 0
                                         },
                                         "vApplicationStackOverflowHook()": {
@@ -3254,7 +3323,7 @@
                                 },
                                 "heap_idf.c.obj": {
                                     "abbrev_name": "heap_idf.c.obj",
-                                    "size": 114,
+                                    "size": 142,
                                     "size_diff": 0,
                                     "symbols": {
                                         "pvPortMalloc()": {
@@ -3269,12 +3338,12 @@
                                         },
                                         "xPortCheckValidTCBMem()": {
                                             "abbrev_name": "xPortCheckValidTCBMem()",
-                                            "size": 40,
+                                            "size": 54,
                                             "size_diff": 0
                                         },
                                         "xPortcheckValidStackMem()": {
                                             "abbrev_name": "xPortcheckValidStackMem()",
-                                            "size": 40,
+                                            "size": 54,
                                             "size_diff": 0
                                         }
                                     }
@@ -3352,7 +3421,7 @@
                                 },
                                 "portasm.S.obj": {
                                     "abbrev_name": "portasm.S.obj",
-                                    "size": 138,
+                                    "size": 136,
                                     "size_diff": 0,
                                     "symbols": {
                                         "rtos_current_tcb()": {
@@ -3364,7 +3433,7 @@
                                 },
                                 "tasks.c.obj": {
                                     "abbrev_name": "tasks.c.obj",
-                                    "size": 5024,
+                                    "size": 5032,
                                     "size_diff": 0,
                                     "symbols": {
                                         "prvResetNextTaskUnblockTime()": {
@@ -3394,7 +3463,7 @@
                                         },
                                         "prvInitialiseNewTask()": {
                                             "abbrev_name": "prvInitialiseNewTask()",
-                                            "size": 222,
+                                            "size": 226,
                                             "size_diff": 0
                                         },
                                         "prvInitialiseTaskLists()": {
@@ -3554,7 +3623,7 @@
                                         },
                                         "__getreent()": {
                                             "abbrev_name": "__getreent()",
-                                            "size": 26,
+                                            "size": 30,
                                             "size_diff": 0
                                         },
                                         "vTaskGetSnapshot()": {
@@ -3655,27 +3724,27 @@
         "Flash": {
             "size": 16777184,
             "size_diff": 0,
-            "used": 77712,
+            "used": 79850,
             "used_diff": 0,
             "sections": {
                 ".flash.rodata": {
                     "abbrev_name": ".rodata",
-                    "size": 20624,
+                    "size": 21416,
                     "size_diff": 0,
                     "archives": {
                         "esp-idf/esp_timer/libesp_timer.a": {
                             "abbrev_name": "libesp_timer.a",
-                            "size": 13906,
+                            "size": 14666,
                             "size_diff": 0,
                             "object_files": {
                                 "system_time.c.obj": {
                                     "abbrev_name": "system_time.c.obj",
-                                    "size": 13898,
+                                    "size": 14658,
                                     "size_diff": 0,
                                     "symbols": {
                                         ".rodata.esp_timer_impl_init_system_time.str1.4": {
                                             "abbrev_name": ".rodata.esp_timer_impl_init_system_time.str1.4",
-                                            "size": 13898,
+                                            "size": 14658,
                                             "size_diff": 0
                                         }
                                     }
@@ -3881,7 +3950,7 @@
                         },
                         "esp-idf/heap/libheap.a": {
                             "abbrev_name": "libheap.a",
-                            "size": 405,
+                            "size": 433,
                             "size_diff": 0,
                             "object_files": {
                                 "heap_caps.c.obj": {
@@ -3889,28 +3958,28 @@
                                     "size": 103,
                                     "size_diff": 0,
                                     "symbols": {
-                                        "__func__.5": {
-                                            "abbrev_name": "__func__.5",
+                                        "__func__.6": {
+                                            "abbrev_name": "__func__.6",
                                             "size": 17,
                                             "size_diff": 0
                                         },
-                                        "__func__.6": {
-                                            "abbrev_name": "__func__.6",
+                                        "__func__.7": {
+                                            "abbrev_name": "__func__.7",
                                             "size": 18,
-                                            "size_diff": 0
-                                        },
-                                        "__func__.10": {
-                                            "abbrev_name": "__func__.10",
-                                            "size": 26,
                                             "size_diff": 0
                                         },
                                         "__func__.11": {
                                             "abbrev_name": "__func__.11",
-                                            "size": 25,
+                                            "size": 26,
                                             "size_diff": 0
                                         },
                                         "__func__.12": {
                                             "abbrev_name": "__func__.12",
+                                            "size": 25,
+                                            "size_diff": 0
+                                        },
+                                        "__func__.13": {
+                                            "abbrev_name": "__func__.13",
                                             "size": 17,
                                             "size_diff": 0
                                         }
@@ -3957,7 +4026,7 @@
                                 },
                                 "memory_layout.c.obj": {
                                     "abbrev_name": "memory_layout.c.obj",
-                                    "size": 180,
+                                    "size": 208,
                                     "size_diff": 0,
                                     "symbols": {
                                         "soc_memory_region_count": {
@@ -3967,7 +4036,7 @@
                                         },
                                         "soc_memory_regions": {
                                             "abbrev_name": "soc_memory_regions",
-                                            "size": 120,
+                                            "size": 140,
                                             "size_diff": 0
                                         },
                                         "soc_memory_types": {
@@ -3977,6 +4046,11 @@
                                         },
                                         "reserved_region_rtc_reserved_data": {
                                             "abbrev_name": "reserved_region_rtc_reserved_data",
+                                            "size": 8,
+                                            "size_diff": 0
+                                        },
+                                        "reserved_region_rtcram_data": {
+                                            "abbrev_name": "reserved_region_rtcram_data",
                                             "size": 8,
                                             "size_diff": 0
                                         },
@@ -4860,7 +4934,7 @@
                 },
                 ".flash.text": {
                     "abbrev_name": ".text",
-                    "size": 56832,
+                    "size": 58178,
                     "size_diff": 0,
                     "archives": {
                         "esp-idf/esp_timer/libesp_timer.a": {
@@ -5010,7 +5084,7 @@
                         },
                         "esp-idf/esp_system/libesp_system.a": {
                             "abbrev_name": "libesp_system.a",
-                            "size": 6234,
+                            "size": 6296,
                             "size_diff": 0,
                             "object_files": {
                                 "fpga_overrides_clk.c.obj": {
@@ -5189,7 +5263,7 @@
                                 },
                                 "panic.c.obj": {
                                     "abbrev_name": "panic.c.obj",
-                                    "size": 1086,
+                                    "size": 1156,
                                     "size_diff": 0,
                                     "symbols": {
                                         "semihosting_call_noerrno()": {
@@ -5199,12 +5273,7 @@
                                         },
                                         "panic_print_char_uart()": {
                                             "abbrev_name": "panic_print_char_uart()",
-                                            "size": 52,
-                                            "size_diff": 0
-                                        },
-                                        "disable_all_wdts()": {
-                                            "abbrev_name": "disable_all_wdts()",
-                                            "size": 104,
+                                            "size": 56,
                                             "size_diff": 0
                                         },
                                         "panic_print_char()": {
@@ -5232,21 +5301,41 @@
                                             "size": 84,
                                             "size_diff": 0
                                         },
-                                        "esp_panic_handler_reconfigure_wdts()": {
-                                            "abbrev_name": "esp_panic_handler_reconfigure_wdts()",
-                                            "size": 164,
+                                        "esp_panic_handler_disable_timg_wdts()": {
+                                            "abbrev_name": "esp_panic_handler_disable_timg_wdts()",
+                                            "size": 104,
+                                            "size_diff": 0
+                                        },
+                                        "disable_all_wdts()": {
+                                            "abbrev_name": "disable_all_wdts()",
+                                            "size": 52,
+                                            "size_diff": 0
+                                        },
+                                        "esp_panic_handler_enable_rtc_wdt()": {
+                                            "abbrev_name": "esp_panic_handler_enable_rtc_wdt()",
+                                            "size": 118,
+                                            "size_diff": 0
+                                        },
+                                        "esp_panic_handler_feed_wdts()": {
+                                            "abbrev_name": "esp_panic_handler_feed_wdts()",
+                                            "size": 194,
+                                            "size_diff": 0
+                                        },
+                                        "esp_panic_handler_increment_entry_count()": {
+                                            "abbrev_name": "esp_panic_handler_increment_entry_count()",
+                                            "size": 38,
                                             "size_diff": 0
                                         },
                                         "esp_panic_handler()": {
                                             "abbrev_name": "esp_panic_handler()",
-                                            "size": 540,
+                                            "size": 368,
                                             "size_diff": 0
                                         }
                                     }
                                 },
                                 "panic_handler.c.obj": {
                                     "abbrev_name": "panic_handler.c.obj",
-                                    "size": 292,
+                                    "size": 258,
                                     "size_diff": 0,
                                     "symbols": {
                                         "frame_to_panic_info()": {
@@ -5256,7 +5345,7 @@
                                         },
                                         "panic_handler()": {
                                             "abbrev_name": "panic_handler()",
-                                            "size": 124,
+                                            "size": 90,
                                             "size_diff": 0
                                         },
                                         "print_state_for_core()": {
@@ -5278,7 +5367,7 @@
                                 },
                                 "panic_arch.c.obj": {
                                     "abbrev_name": "panic_arch.c.obj",
-                                    "size": 652,
+                                    "size": 660,
                                     "size_diff": 0,
                                     "symbols": {
                                         "panic_print_register_array()": {
@@ -5288,17 +5377,17 @@
                                         },
                                         "panic_print_basic_backtrace()": {
                                             "abbrev_name": "panic_print_basic_backtrace()",
-                                            "size": 134,
+                                            "size": 142,
                                             "size_diff": 0
                                         },
                                         "print_cache_err_details()": {
                                             "abbrev_name": "print_cache_err_details()",
-                                            "size": 52,
+                                            "size": 56,
                                             "size_diff": 0
                                         },
                                         "panic_print_registers()": {
                                             "abbrev_name": "panic_print_registers()",
-                                            "size": 106,
+                                            "size": 108,
                                             "size_diff": 0
                                         },
                                         "panic_soc_check_pseudo_cause()": {
@@ -5321,11 +5410,6 @@
                                             "size": 12,
                                             "size_diff": 0
                                         },
-                                        "panic_get_cause()": {
-                                            "abbrev_name": "panic_get_cause()",
-                                            "size": 6,
-                                            "size_diff": 0
-                                        },
                                         "panic_prepare_frame_from_ctx()": {
                                             "abbrev_name": "panic_prepare_frame_from_ctx()",
                                             "size": 42,
@@ -5341,6 +5425,18 @@
                                         "esp_crosscore_int_init()": {
                                             "abbrev_name": "esp_crosscore_int_init()",
                                             "size": 100,
+                                            "size_diff": 0
+                                        }
+                                    }
+                                },
+                                "esp_system_console.c.obj": {
+                                    "abbrev_name": "esp_system_console.c.obj",
+                                    "size": 18,
+                                    "size_diff": 0,
+                                    "symbols": {
+                                        "esp_system_console_put_char()": {
+                                            "abbrev_name": "esp_system_console_put_char()",
+                                            "size": 18,
                                             "size_diff": 0
                                         }
                                     }
@@ -5523,24 +5619,24 @@
                         },
                         "esp-idf/hal/libhal.a": {
                             "abbrev_name": "libhal.a",
-                            "size": 566,
+                            "size": 652,
                             "size_diff": 0,
                             "object_files": {
                                 "uart_hal_iram.c.obj": {
                                     "abbrev_name": "uart_hal_iram.c.obj",
-                                    "size": 56,
+                                    "size": 64,
                                     "size_diff": 0,
                                     "symbols": {
                                         "uart_hal_write_txfifo()": {
                                             "abbrev_name": "uart_hal_write_txfifo()",
-                                            "size": 56,
+                                            "size": 64,
                                             "size_diff": 0
                                         }
                                     }
                                 },
                                 "spi_flash_hal.c.obj": {
                                     "abbrev_name": "spi_flash_hal.c.obj",
-                                    "size": 510,
+                                    "size": 588,
                                     "size_diff": 0,
                                     "symbols": {
                                         "spimem_flash_ll_calculate_clock_reg()": {
@@ -5548,19 +5644,24 @@
                                             "size": 42,
                                             "size_diff": 0
                                         },
+                                        "gpspi_flash_ll_calculate_clock_reg()": {
+                                            "abbrev_name": "gpspi_flash_ll_calculate_clock_reg()",
+                                            "size": 44,
+                                            "size_diff": 0
+                                        },
                                         "get_flash_clock_divider()": {
                                             "abbrev_name": "get_flash_clock_divider()",
-                                            "size": 152,
+                                            "size": 160,
                                             "size_diff": 0
                                         },
                                         "spi_flash_cal_clock()": {
                                             "abbrev_name": "spi_flash_cal_clock()",
-                                            "size": 26,
+                                            "size": 32,
                                             "size_diff": 0
                                         },
                                         "spi_flash_hal_init()": {
                                             "abbrev_name": "spi_flash_hal_init()",
-                                            "size": 254,
+                                            "size": 274,
                                             "size_diff": 0
                                         },
                                         "spi_flash_hal_supports_direct_write()": {
@@ -5654,7 +5755,7 @@
                         },
                         "esp-idf/heap/libheap.a": {
                             "abbrev_name": "libheap.a",
-                            "size": 2158,
+                            "size": 2152,
                             "size_diff": 0,
                             "object_files": {
                                 "heap_caps.c.obj": {
@@ -5686,7 +5787,7 @@
                                 },
                                 "heap_caps_init.c.obj": {
                                     "abbrev_name": "heap_caps_init.c.obj",
-                                    "size": 1196,
+                                    "size": 1190,
                                     "size_diff": 0,
                                     "symbols": {
                                         "sorted_add_to_registered_heaps()": {
@@ -5706,7 +5807,7 @@
                                         },
                                         "heap_caps_init()": {
                                             "abbrev_name": "heap_caps_init()",
-                                            "size": 968,
+                                            "size": 962,
                                             "size_diff": 0
                                         },
                                         "__esp_system_init_fn_init_heap()": {
@@ -5793,12 +5894,12 @@
                         },
                         "esp-idf/esp_hw_support/libesp_hw_support.a": {
                             "abbrev_name": "libesp_hw_support.a",
-                            "size": 2796,
+                            "size": 3110,
                             "size_diff": 0,
                             "object_files": {
                                 "esp_clk.c.obj": {
                                     "abbrev_name": "esp_clk.c.obj",
-                                    "size": 312,
+                                    "size": 308,
                                     "size_diff": 0,
                                     "symbols": {
                                         "calc_checksum()": {
@@ -5813,14 +5914,14 @@
                                         },
                                         "esp_rtc_get_time_us()": {
                                             "abbrev_name": "esp_rtc_get_time_us()",
-                                            "size": 262,
+                                            "size": 258,
                                             "size_diff": 0
                                         }
                                     }
                                 },
                                 "intr_alloc.c.obj": {
                                     "abbrev_name": "intr_alloc.c.obj",
-                                    "size": 2180,
+                                    "size": 2202,
                                     "size_diff": 0,
                                     "symbols": {
                                         "insert_vector_desc()": {
@@ -5845,7 +5946,7 @@
                                         },
                                         "is_vect_desc_usable()": {
                                             "abbrev_name": "is_vect_desc_usable()",
-                                            "size": 214,
+                                            "size": 216,
                                             "size_diff": 0
                                         },
                                         "get_available_int()": {
@@ -5855,22 +5956,56 @@
                                         },
                                         "esp_intr_ptr_in_isr_region()": {
                                             "abbrev_name": "esp_intr_ptr_in_isr_region()",
-                                            "size": 40,
+                                            "size": 56,
                                             "size_diff": 0
                                         },
                                         "esp_intr_alloc_intrstatus_bind()": {
                                             "abbrev_name": "esp_intr_alloc_intrstatus_bind()",
-                                            "size": 1140,
+                                            "size": 1142,
                                             "size_diff": 0
                                         },
                                         "esp_intr_alloc_intrstatus()": {
                                             "abbrev_name": "esp_intr_alloc_intrstatus()",
-                                            "size": 16,
+                                            "size": 18,
                                             "size_diff": 0
                                         },
                                         "esp_intr_alloc()": {
                                             "abbrev_name": "esp_intr_alloc()",
                                             "size": 22,
+                                            "size_diff": 0
+                                        }
+                                    }
+                                },
+                                "rtc_clk.c.obj": {
+                                    "abbrev_name": "rtc_clk.c.obj",
+                                    "size": 122,
+                                    "size_diff": 0,
+                                    "symbols": {
+                                        "rtc_clk_slow_src_get()": {
+                                            "abbrev_name": "rtc_clk_slow_src_get()",
+                                            "size": 58,
+                                            "size_diff": 0
+                                        },
+                                        "rtc_clk_slow_freq_get_hz()": {
+                                            "abbrev_name": "rtc_clk_slow_freq_get_hz()",
+                                            "size": 64,
+                                            "size_diff": 0
+                                        }
+                                    }
+                                },
+                                "rtc_time.c.obj": {
+                                    "abbrev_name": "rtc_time.c.obj",
+                                    "size": 158,
+                                    "size_diff": 0,
+                                    "symbols": {
+                                        "rtc_time_get()": {
+                                            "abbrev_name": "rtc_time_get()",
+                                            "size": 60,
+                                            "size_diff": 0
+                                        },
+                                        "enable_timer_group0_for_calibration()": {
+                                            "abbrev_name": "enable_timer_group0_for_calibration()",
+                                            "size": 98,
                                             "size_diff": 0
                                         }
                                     }
@@ -5930,12 +6065,12 @@
                                 },
                                 "cpu.c.obj": {
                                     "abbrev_name": "cpu.c.obj",
-                                    "size": 80,
+                                    "size": 96,
                                     "size_diff": 0,
                                     "symbols": {
                                         "esp_cpu_set_breakpoint()": {
                                             "abbrev_name": "esp_cpu_set_breakpoint()",
-                                            "size": 80,
+                                            "size": 96,
                                             "size_diff": 0
                                         }
                                     }
@@ -5944,7 +6079,7 @@
                         },
                         "esp-idf/newlib/libnewlib.a": {
                             "abbrev_name": "libnewlib.a",
-                            "size": 1678,
+                            "size": 1924,
                             "size_diff": 0,
                             "object_files": {
                                 "init.c.obj": {
@@ -6017,7 +6152,7 @@
                                 },
                                 "time.c.obj": {
                                     "abbrev_name": "time.c.obj",
-                                    "size": 606,
+                                    "size": 782,
                                     "size_diff": 0,
                                     "symbols": {
                                         "adjust_boot_time()": {
@@ -6033,6 +6168,16 @@
                                         "adjtime_corr_stop()": {
                                             "abbrev_name": "adjtime_corr_stop()",
                                             "size": 80,
+                                            "size_diff": 0
+                                        },
+                                        "_gettimeofday_r()": {
+                                            "abbrev_name": "_gettimeofday_r()",
+                                            "size": 102,
+                                            "size_diff": 0
+                                        },
+                                        "_times_r()": {
+                                            "abbrev_name": "_times_r()",
+                                            "size": 74,
                                             "size_diff": 0
                                         },
                                         "settimeofday()": {
@@ -6066,7 +6211,7 @@
                                 },
                                 "reent_syscalls.c.obj": {
                                     "abbrev_name": "reent_syscalls.c.obj",
-                                    "size": 296,
+                                    "size": 288,
                                     "size_diff": 0,
                                     "symbols": {
                                         "syscall_not_implemented()": {
@@ -6146,12 +6291,12 @@
                                         },
                                         "_write_r_console()": {
                                             "abbrev_name": "_write_r_console()",
-                                            "size": 96,
+                                            "size": 88,
                                             "size_diff": 0
                                         },
                                         "_write_r()": {
                                             "abbrev_name": "_write_r()",
-                                            "size": 96,
+                                            "size": 88,
                                             "size_diff": 0
                                         },
                                         "_read_r()": {
@@ -6213,14 +6358,26 @@
                                         }
                                     }
                                 },
+                                "reent_init.c.obj": {
+                                    "abbrev_name": "reent_init.c.obj",
+                                    "size": 58,
+                                    "size_diff": 0,
+                                    "symbols": {
+                                        "esp_reent_init()": {
+                                            "abbrev_name": "esp_reent_init()",
+                                            "size": 58,
+                                            "size_diff": 0
+                                        }
+                                    }
+                                },
                                 "newlib_init.c.obj": {
                                     "abbrev_name": "newlib_init.c.obj",
-                                    "size": 236,
+                                    "size": 256,
                                     "size_diff": 0,
                                     "symbols": {
                                         "esp_cleanup_r()": {
                                             "abbrev_name": "esp_cleanup_r()",
-                                            "size": 68,
+                                            "size": 80,
                                             "size_diff": 0
                                         },
                                         "raise_r_stub()": {
@@ -6230,22 +6387,22 @@
                                         },
                                         "esp_libc_init()": {
                                             "abbrev_name": "esp_libc_init()",
-                                            "size": 104,
+                                            "size": 108,
                                             "size_diff": 0
                                         },
                                         "esp_setup_newlib_syscalls()": {
                                             "abbrev_name": "esp_setup_newlib_syscalls()",
-                                            "size": 104,
+                                            "size": 108,
                                             "size_diff": 0
                                         },
                                         "esp_newlib_init()": {
                                             "abbrev_name": "esp_newlib_init()",
-                                            "size": 104,
+                                            "size": 108,
                                             "size_diff": 0
                                         },
                                         "esp_libc_init_global_stdio()": {
                                             "abbrev_name": "esp_libc_init_global_stdio()",
-                                            "size": 48,
+                                            "size": 52,
                                             "size_diff": 0
                                         },
                                         "esp_libc_include_init_funcs()": {
@@ -6412,17 +6569,17 @@
                         },
                         "esp-idf/bootloader_support/libbootloader_support.a": {
                             "abbrev_name": "libbootloader_support.a",
-                            "size": 276,
+                            "size": 300,
                             "size_diff": 0,
                             "object_files": {
                                 "bootloader_mem.c.obj": {
                                     "abbrev_name": "bootloader_mem.c.obj",
-                                    "size": 14,
+                                    "size": 38,
                                     "size_diff": 0,
                                     "symbols": {
                                         "bootloader_init_mem()": {
                                             "abbrev_name": "bootloader_init_mem()",
-                                            "size": 14,
+                                            "size": 38,
                                             "size_diff": 0
                                         }
                                     }
@@ -6460,12 +6617,12 @@
                         },
                         "esp-idf/esp_mm/libesp_mm.a": {
                             "abbrev_name": "libesp_mm.a",
-                            "size": 2880,
+                            "size": 3018,
                             "size_diff": 0,
                             "object_files": {
                                 "esp_mmu_map.c.obj": {
                                     "abbrev_name": "esp_mmu_map.c.obj",
-                                    "size": 2880,
+                                    "size": 3018,
                                     "size_diff": 0,
                                     "symbols": {
                                         "s_mem_caps_check()": {
@@ -6510,12 +6667,12 @@
                                         },
                                         "esp_mmu_map()": {
                                             "abbrev_name": "esp_mmu_map()",
-                                            "size": 1302,
+                                            "size": 1396,
                                             "size_diff": 0
                                         },
                                         "esp_mmu_unmap()": {
                                             "abbrev_name": "esp_mmu_unmap()",
-                                            "size": 380,
+                                            "size": 424,
                                             "size_diff": 0
                                         },
                                         "esp_mmu_vaddr_to_paddr()": {
@@ -6529,7 +6686,7 @@
                         },
                         "esp-idf/spi_flash/libspi_flash.a": {
                             "abbrev_name": "libspi_flash.a",
-                            "size": 1084,
+                            "size": 1544,
                             "size_diff": 0,
                             "object_files": {
                                 "cache_utils.c.obj": {
@@ -6593,21 +6750,9 @@
                                         }
                                     }
                                 },
-                                "esp_flash_api.c.obj": {
-                                    "abbrev_name": "esp_flash_api.c.obj",
-                                    "size": 20,
-                                    "size_diff": 0,
-                                    "symbols": {
-                                        "esp_flash_read_chip_id()": {
-                                            "abbrev_name": "esp_flash_read_chip_id()",
-                                            "size": 20,
-                                            "size_diff": 0
-                                        }
-                                    }
-                                },
                                 "esp_flash_spi_init.c.obj": {
                                     "abbrev_name": "esp_flash_spi_init.c.obj",
-                                    "size": 484,
+                                    "size": 504,
                                     "size_diff": 0,
                                     "symbols": {
                                         "spimem_flash_ll_get_source_freq_mhz()": {
@@ -6617,12 +6762,36 @@
                                         },
                                         "esp_flash_init_default_chip()": {
                                             "abbrev_name": "esp_flash_init_default_chip()",
-                                            "size": 348,
+                                            "size": 366,
                                             "size_diff": 0
                                         },
                                         "esp_flash_app_init()": {
                                             "abbrev_name": "esp_flash_app_init()",
-                                            "size": 32,
+                                            "size": 34,
+                                            "size_diff": 0
+                                        }
+                                    }
+                                },
+                                "spi_flash_chip_drivers.c.obj": {
+                                    "abbrev_name": "spi_flash_chip_drivers.c.obj",
+                                    "size": 440,
+                                    "size_diff": 0,
+                                    "symbols": {
+                                        "spi_flash_chip_list_check()": {
+                                            "abbrev_name": "spi_flash_chip_list_check()",
+                                            "size": 440,
+                                            "size_diff": 0
+                                        }
+                                    }
+                                },
+                                "esp_flash_api.c.obj": {
+                                    "abbrev_name": "esp_flash_api.c.obj",
+                                    "size": 20,
+                                    "size_diff": 0,
+                                    "symbols": {
+                                        "esp_flash_read_chip_id()": {
+                                            "abbrev_name": "esp_flash_read_chip_id()",
+                                            "size": 20,
                                             "size_diff": 0
                                         }
                                     }
@@ -6662,7 +6831,7 @@
                         },
                         "esp-idf/esp_partition/libesp_partition.a": {
                             "abbrev_name": "libesp_partition.a",
-                            "size": 1188,
+                            "size": 1204,
                             "size_diff": 0,
                             "object_files": {
                                 "partition_target.c.obj": {
@@ -6684,12 +6853,12 @@
                                 },
                                 "partition.c.obj": {
                                     "abbrev_name": "partition.c.obj",
-                                    "size": 1016,
+                                    "size": 1032,
                                     "size_diff": 0,
                                     "symbols": {
                                         "is_partition_encrypted()": {
                                             "abbrev_name": "is_partition_encrypted()",
-                                            "size": 74,
+                                            "size": 88,
                                             "size_diff": 0
                                         },
                                         "load_partitions()": {
@@ -6719,7 +6888,7 @@
                                         },
                                         "esp_partition_find()": {
                                             "abbrev_name": "esp_partition_find()",
-                                            "size": 64,
+                                            "size": 66,
                                             "size_diff": 0
                                         },
                                         "esp_partition_get()": {
@@ -6733,17 +6902,17 @@
                         },
                         "esp-idf/app_update/libapp_update.a": {
                             "abbrev_name": "libapp_update.a",
-                            "size": 192,
+                            "size": 194,
                             "size_diff": 0,
                             "object_files": {
                                 "esp_ota_ops.c.obj": {
                                     "abbrev_name": "esp_ota_ops.c.obj",
-                                    "size": 192,
+                                    "size": 194,
                                     "size_diff": 0,
                                     "symbols": {
                                         "esp_ota_get_running_partition()": {
                                             "abbrev_name": "esp_ota_get_running_partition()",
-                                            "size": 192,
+                                            "size": 194,
                                             "size_diff": 0
                                         }
                                     }
@@ -6752,7 +6921,7 @@
                         },
                         "/home/fhrbata/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/no-rtti/libc.a": {
                             "abbrev_name": "libc.a",
-                            "size": 34794,
+                            "size": 34798,
                             "size_diff": 0,
                             "object_files": {
                                 "libc_a-fclose.o": {
@@ -6774,7 +6943,7 @@
                                 },
                                 "libc_a-fflush.o": {
                                     "abbrev_name": "libc_a-fflush.o",
-                                    "size": 484,
+                                    "size": 488,
                                     "size_diff": 0,
                                     "symbols": {
                                         "__sflush_r()": {
@@ -6786,7 +6955,7 @@
                                 },
                                 "libc_a-findfp.o": {
                                     "abbrev_name": "libc_a-findfp.o",
-                                    "size": 746,
+                                    "size": 750,
                                     "size_diff": 0,
                                     "symbols": {
                                         "std()": {
@@ -6796,7 +6965,7 @@
                                         },
                                         "stdio_exit_handler()": {
                                             "abbrev_name": "stdio_exit_handler()",
-                                            "size": 18,
+                                            "size": 22,
                                             "size_diff": 0
                                         },
                                         "cleanup_stdio()": {
@@ -6972,12 +7141,12 @@
                                 },
                                 "libc_a-sysgettod.o": {
                                     "abbrev_name": "libc_a-sysgettod.o",
-                                    "size": 36,
+                                    "size": 32,
                                     "size_diff": 0,
                                     "symbols": {
                                         "gettimeofday()": {
                                             "abbrev_name": "gettimeofday()",
-                                            "size": 36,
+                                            "size": 32,
                                             "size_diff": 0
                                         }
                                     }

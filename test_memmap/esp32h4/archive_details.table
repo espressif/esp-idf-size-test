@@ -2,20 +2,20 @@
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┳━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━┓
 ┃ Symbol                                            ┃ Total Size ┃ DIRAM ┃ .bss ┃ .data ┃ .text ┃ Flash ┃ .rodata ┃ .appdesc ┃ .text ┃
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━╇━━━━━━╇━━━━━━━╇━━━━━━━╇━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━┩
-│ call_start_cpu0()                                 │        390 │   390 │    0 │     0 │   390 │     0 │       0 │        0 │     0 │
-│ add_entry()                                       │        378 │     0 │    0 │     0 │     0 │   378 │       0 │        0 │   378 │
-│ esp_task_wdt_init()                               │        324 │     0 │    0 │     0 │     0 │   324 │       0 │        0 │   324 │
-│ esp_system_reset_modules_on_exit()                │        310 │   310 │    0 │     0 │   310 │     0 │       0 │        0 │     0 │
+│ call_start_cpu0()                                 │        430 │   430 │    0 │     0 │   430 │     0 │       0 │        0 │     0 │
+│ esp_system_reset_modules_on_exit()                │        420 │   420 │    0 │     0 │   420 │     0 │       0 │        0 │     0 │
+│ add_entry()                                       │        372 │     0 │    0 │     0 │     0 │   372 │       0 │        0 │   372 │
+│ esp_panic_handler()                               │        368 │     0 │    0 │     0 │     0 │   368 │       0 │        0 │   368 │
+│ esp_task_wdt_init()                               │        322 │     0 │    0 │     0 │     0 │   322 │       0 │        0 │   322 │
 │ esp_task_wdt_print_triggered_tasks()              │        298 │     0 │    0 │     0 │     0 │   298 │       0 │        0 │   298 │
-│ esp_panic_handler()                               │        264 │     0 │    0 │     0 │     0 │   264 │       0 │        0 │   264 │
 │ task_wdt_timeout_abort()                          │        262 │     0 │    0 │     0 │     0 │   262 │       0 │        0 │   262 │
-│ task_wdt_isr()                                    │        262 │     0 │    0 │     0 │     0 │   262 │       0 │        0 │   262 │
+│ task_wdt_isr()                                    │        260 │     0 │    0 │     0 │     0 │   260 │       0 │        0 │   260 │
+│ esp_restart_noos()                                │        250 │   250 │    0 │     0 │   250 │     0 │       0 │        0 │     0 │
 │ esp_task_wdt_impl_timer_allocate()                │        248 │     0 │    0 │     0 │     0 │   248 │       0 │        0 │   248 │
-│ esp_restart_noos()                                │        246 │   246 │    0 │     0 │   246 │     0 │       0 │        0 │     0 │
 │ esp_panic_handler_feed_wdts()                     │        204 │     0 │    0 │     0 │     0 │   204 │       0 │        0 │   204 │
 │ esp_int_wdt_init()                                │        204 │     0 │    0 │     0 │     0 │   204 │       0 │        0 │   204 │
 │ esp_task_wdt_reset()                              │        204 │     0 │    0 │     0 │     0 │   204 │       0 │        0 │   204 │
-│ subscribe_idle()                                  │        178 │     0 │    0 │     0 │     0 │   178 │       0 │        0 │   178 │
+│ subscribe_idle()                                  │        176 │     0 │    0 │     0 │     0 │   176 │       0 │        0 │   176 │
 │ esp_backtrace_print()                             │        150 │   150 │    0 │     0 │   150 │     0 │       0 │        0 │     0 │
 │ .rodata                                           │        148 │     0 │    0 │     0 │     0 │   148 │     148 │        0 │     0 │
 │ panic_print_basic_backtrace()                     │        146 │     0 │    0 │     0 │     0 │   146 │       0 │        0 │   146 │
@@ -33,13 +33,13 @@
 │ panic_print_register_array()                      │        102 │     0 │    0 │     0 │     0 │   102 │       0 │        0 │   102 │
 │ esp_task_wdt_add()                                │        102 │     0 │    0 │     0 │     0 │   102 │       0 │        0 │   102 │
 │ esp_cache_err_int_init()                          │        100 │     0 │    0 │     0 │     0 │   100 │       0 │        0 │   100 │
+│ panic_handler()                                   │        100 │     0 │    0 │     0 │     0 │   100 │       0 │        0 │   100 │
 │ esp_crosscore_int_send()                          │         94 │    94 │    0 │     0 │    94 │     0 │       0 │        0 │     0 │
 │ frame_to_panic_info()                             │         94 │     0 │    0 │     0 │     0 │    94 │       0 │        0 │    94 │
-│ panic_handler()                                   │         92 │     0 │    0 │     0 │     0 │    92 │       0 │        0 │    92 │
-│ task_wdt_timeout_handling()                       │         92 │     0 │    0 │     0 │     0 │    92 │       0 │        0 │    92 │
+│ task_wdt_timeout_handling()                       │         90 │     0 │    0 │     0 │     0 │    90 │       0 │        0 │    90 │
 │ esp_crosscore_isr()                               │         88 │    88 │    0 │     0 │    88 │     0 │       0 │        0 │     0 │
 │ core_intr_matrix_clear()                          │         88 │     0 │    0 │     0 │     0 │    88 │       0 │        0 │    88 │
-│ esp_int_wdt_cpu_init()                            │         88 │     0 │    0 │     0 │     0 │    88 │       0 │        0 │    88 │
+│ esp_int_wdt_cpu_init()                            │         86 │     0 │    0 │     0 │     0 │    86 │       0 │        0 │    86 │
 │ panic_print_dec()                                 │         84 │     0 │    0 │     0 │     0 │    84 │       0 │        0 │    84 │
 │ esp_vApplicationIdleHook()                        │         84 │     0 │    0 │     0 │     0 │    84 │       0 │        0 │    84 │
 │ __esp_system_init_fn_init_flash()                 │         82 │     0 │    0 │     0 │     0 │    82 │       0 │        0 │    82 │
@@ -55,6 +55,7 @@
 │ panic_arch_fill_info()                            │         54 │     0 │    0 │     0 │     0 │    54 │       0 │        0 │    54 │
 │ esp_task_wdt_impl_timer_feed()                    │         54 │     0 │    0 │     0 │     0 │    54 │       0 │        0 │    54 │
 │ s_warn()                                          │         52 │     0 │    0 │     0 │     0 │    52 │       0 │        0 │    52 │
+│ disable_all_wdts()                                │         52 │     0 │    0 │     0 │     0 │    52 │       0 │        0 │    52 │
 │ panic_soc_check_pseudo_cause()                    │         52 │     0 │    0 │     0 │     0 │    52 │       0 │        0 │    52 │
 │ esp_restart()                                     │         50 │     0 │    0 │     0 │     0 │    50 │       0 │        0 │    50 │
 │ find_entry_from_task_handle_and_check_all_reset() │         50 │     0 │    0 │     0 │     0 │    50 │       0 │        0 │    50 │
@@ -86,17 +87,19 @@
 │ cache_error_msg                                   │         19 │     0 │    0 │     0 │     0 │    19 │      19 │        0 │     0 │
 │ __FUNCTION__.5                                    │         19 │     0 │    0 │     0 │     0 │    19 │      19 │        0 │     0 │
 │ __FUNCTION__.14                                   │         18 │     0 │    0 │     0 │     0 │    18 │      18 │        0 │     0 │
+│ esp_system_console_put_char()                     │         18 │     0 │    0 │     0 │     0 │    18 │       0 │        0 │    18 │
 │ __FUNCTION__.8                                    │         17 │     0 │    0 │     0 │     0 │    17 │      17 │        0 │     0 │
-│ __esp_system_init_fn_init_newlib_time()           │         16 │     0 │    0 │     0 │     0 │    16 │       0 │        0 │    16 │
-│ esp_cache_err_has_active_err()                    │         16 │     0 │    0 │     0 │     0 │    16 │       0 │        0 │    16 │
 │ start_cpu0_default()                              │         16 │     0 │    0 │     0 │     0 │    16 │       0 │        0 │    16 │
 │ start_cpu0()                                      │         16 │     0 │    0 │     0 │     0 │    16 │       0 │        0 │    16 │
-│ idle_hook_cb()                                    │         16 │     0 │    0 │     0 │     0 │    16 │       0 │        0 │    16 │
+│ __esp_system_init_fn_init_newlib_time()           │         16 │     0 │    0 │     0 │     0 │    16 │       0 │        0 │    16 │
+│ esp_cache_err_has_active_err()                    │         16 │     0 │    0 │     0 │     0 │    16 │       0 │        0 │    16 │
 │ esp_get_minimum_free_heap_size()                  │         16 │     0 │    0 │     0 │     0 │    16 │       0 │        0 │    16 │
 │ __func__.12                                       │         15 │     0 │    0 │     0 │     0 │    15 │      15 │        0 │     0 │
 │ esp_crosscore_int_send_yield()                    │         14 │    14 │    0 │     0 │    14 │     0 │       0 │        0 │     0 │
 │ do_core_init()                                    │         14 │     0 │    0 │     0 │     0 │    14 │       0 │        0 │    14 │
 │ do_secondary_init()                               │         14 │     0 │    0 │     0 │     0 │    14 │       0 │        0 │    14 │
+│ semihosting_call_noerrno()                        │         14 │     0 │    0 │     0 │     0 │    14 │       0 │        0 │    14 │
+│ idle_hook_cb()                                    │         14 │     0 │    0 │     0 │     0 │    14 │       0 │        0 │    14 │
 │ __func__.13                                       │         13 │     0 │    0 │     0 │     0 │    13 │      13 │        0 │     0 │
 │ init_context                                      │         12 │    12 │   12 │     0 │     0 │     0 │       0 │        0 │     0 │
 │ esp_clk_init()                                    │         12 │     0 │    0 │     0 │     0 │    12 │       0 │        0 │    12 │
