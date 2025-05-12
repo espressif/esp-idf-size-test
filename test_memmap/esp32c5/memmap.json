@@ -2,15 +2,15 @@
     "version": "1.0",
     "target": "esp32c5",
     "target_diff": "",
-    "image_size": 152021,
+    "image_size": 152537,
     "image_size_diff": 0,
-    "project_path": "/tmp/tmptv6k_vl8/build/hello_world.map",
+    "project_path": "/tmp/tmp6l8ow0c9/build/hello_world.map",
     "project_path_diff": "",
     "memory_types": {
         "HP SRAM": {
             "size": 320928,
             "size_diff": 0,
-            "used": 48493,
+            "used": 48743,
             "used_diff": 0,
             "sections": {
                 ".dram0.bss": {
@@ -1680,7 +1680,7 @@
                 },
                 ".iram0.text": {
                     "abbrev_name": ".text",
-                    "size": 39640,
+                    "size": 39890,
                     "size_diff": 0,
                     "archives": {
                         "esp-idf/riscv/libriscv.a": {
@@ -2545,7 +2545,7 @@
                         },
                         "esp-idf/esp_hw_support/libesp_hw_support.a": {
                             "abbrev_name": "libesp_hw_support.a",
-                            "size": 7690,
+                            "size": 7940,
                             "size_diff": 0,
                             "object_files": {
                                 "esp_clk.c.obj": {
@@ -2861,17 +2861,17 @@
                                 },
                                 "pmu_param.c.obj": {
                                     "abbrev_name": "pmu_param.c.obj",
-                                    "size": 8,
+                                    "size": 244,
                                     "size_diff": 0,
                                     "symbols": {
                                         "get_act_hp_dbias()": {
                                             "abbrev_name": "get_act_hp_dbias()",
-                                            "size": 4,
+                                            "size": 122,
                                             "size_diff": 0
                                         },
                                         "get_act_lp_dbias()": {
                                             "abbrev_name": "get_act_lp_dbias()",
-                                            "size": 4,
+                                            "size": 122,
                                             "size_diff": 0
                                         }
                                     }
@@ -2895,17 +2895,17 @@
                                 },
                                 "regi2c_ctrl.c.obj": {
                                     "abbrev_name": "regi2c_ctrl.c.obj",
-                                    "size": 548,
+                                    "size": 562,
                                     "size_diff": 0,
                                     "symbols": {
                                         "regi2c_ctrl_read_reg_mask()": {
                                             "abbrev_name": "regi2c_ctrl_read_reg_mask()",
-                                            "size": 182,
+                                            "size": 190,
                                             "size_diff": 0
                                         },
                                         "regi2c_ctrl_write_reg()": {
                                             "abbrev_name": "regi2c_ctrl_write_reg()",
-                                            "size": 172,
+                                            "size": 178,
                                             "size_diff": 0
                                         },
                                         "regi2c_ctrl_write_reg_mask()": {
@@ -4609,29 +4609,29 @@
             }
         },
         "Flash": {
-            "size": 16777184,
+            "size": 0,
             "size_diff": 0,
-            "used": 107280,
+            "used": 107546,
             "used_diff": 0,
             "sections": {
                 ".flash.rodata": {
                     "abbrev_name": ".rodata",
-                    "size": 29100,
+                    "size": 29212,
                     "size_diff": 0,
                     "archives": {
                         "esp-idf/esp_timer/libesp_timer.a": {
                             "abbrev_name": "libesp_timer.a",
-                            "size": 18850,
+                            "size": 18958,
                             "size_diff": 0,
                             "object_files": {
                                 "system_time.c.obj": {
                                     "abbrev_name": "system_time.c.obj",
-                                    "size": 18842,
+                                    "size": 18950,
                                     "size_diff": 0,
                                     "symbols": {
                                         ".rodata.esp_timer_impl_init_system_time.str1.4": {
                                             "abbrev_name": ".rodata.esp_timer_impl_init_system_time.str1.4",
-                                            "size": 18842,
+                                            "size": 18950,
                                             "size_diff": 0
                                         }
                                     }
@@ -6499,7 +6499,7 @@
                 },
                 ".flash.text": {
                     "abbrev_name": ".text",
-                    "size": 77924,
+                    "size": 78078,
                     "size_diff": 0,
                     "archives": {
                         "esp-idf/esp_timer/libesp_timer.a": {
@@ -6649,7 +6649,7 @@
                         },
                         "esp-idf/esp_system/libesp_system.a": {
                             "abbrev_name": "libesp_system.a",
-                            "size": 7824,
+                            "size": 7842,
                             "size_diff": 0,
                             "object_files": {
                                 "esp_system.c.obj": {
@@ -6708,7 +6708,7 @@
                                 },
                                 "startup_funcs.c.obj": {
                                     "abbrev_name": "startup_funcs.c.obj",
-                                    "size": 296,
+                                    "size": 314,
                                     "size_diff": 0,
                                     "symbols": {
                                         "__esp_system_init_fn_init_show_cpu_freq()": {
@@ -6718,7 +6718,7 @@
                                         },
                                         "__esp_system_init_fn_init_brownout()": {
                                             "abbrev_name": "__esp_system_init_fn_init_brownout()",
-                                            "size": 16,
+                                            "size": 34,
                                             "size_diff": 0
                                         },
                                         "__esp_system_init_fn_init_newlib_time()": {
@@ -7199,7 +7199,7 @@
                         },
                         "esp-idf/hal/libhal.a": {
                             "abbrev_name": "libhal.a",
-                            "size": 2526,
+                            "size": 2614,
                             "size_diff": 0,
                             "object_files": {
                                 "uart_hal_iram.c.obj": {
@@ -7354,12 +7354,22 @@
                                 },
                                 "apm_hal.c.obj": {
                                     "abbrev_name": "apm_hal.c.obj",
-                                    "size": 292,
+                                    "size": 380,
                                     "size_diff": 0,
                                     "symbols": {
                                         "apm_ll_apm_ctrl_filter_enable()": {
                                             "abbrev_name": "apm_ll_apm_ctrl_filter_enable()",
                                             "size": 106,
+                                            "size_diff": 0
+                                        },
+                                        "apm_tee_hal_set_master_secure_mode()": {
+                                            "abbrev_name": "apm_tee_hal_set_master_secure_mode()",
+                                            "size": 36,
+                                            "size_diff": 0
+                                        },
+                                        "apm_tee_hal_set_master_secure_mode_all()": {
+                                            "abbrev_name": "apm_tee_hal_set_master_secure_mode_all()",
+                                            "size": 52,
                                             "size_diff": 0
                                         },
                                         "apm_hal_apm_ctrl_filter_enable()": {
@@ -7602,7 +7612,7 @@
                         },
                         "esp-idf/esp_hw_support/libesp_hw_support.a": {
                             "abbrev_name": "libesp_hw_support.a",
-                            "size": 17886,
+                            "size": 17928,
                             "size_diff": 0,
                             "object_files": {
                                 "intr_alloc.c.obj": {
@@ -7777,17 +7787,17 @@
                                 },
                                 "ocode_init.c.obj": {
                                     "abbrev_name": "ocode_init.c.obj",
-                                    "size": 134,
+                                    "size": 176,
                                     "size_diff": 0,
                                     "symbols": {
                                         "set_ocode_by_efuse()": {
                                             "abbrev_name": "set_ocode_by_efuse()",
-                                            "size": 92,
+                                            "size": 106,
                                             "size_diff": 0
                                         },
                                         "esp_ocode_calib_init()": {
                                             "abbrev_name": "esp_ocode_calib_init()",
-                                            "size": 42,
+                                            "size": 70,
                                             "size_diff": 0
                                         }
                                     }
@@ -8932,17 +8942,17 @@
                         },
                         "esp-idf/bootloader_support/libbootloader_support.a": {
                             "abbrev_name": "libbootloader_support.a",
-                            "size": 52,
+                            "size": 58,
                             "size_diff": 0,
                             "object_files": {
                                 "bootloader_mem.c.obj": {
                                     "abbrev_name": "bootloader_mem.c.obj",
-                                    "size": 20,
+                                    "size": 26,
                                     "size_diff": 0,
                                     "symbols": {
                                         "bootloader_init_mem()": {
                                             "abbrev_name": "bootloader_init_mem()",
-                                            "size": 20,
+                                            "size": 26,
                                             "size_diff": 0
                                         }
                                     }

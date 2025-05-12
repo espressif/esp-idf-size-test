@@ -72,6 +72,7 @@
 │ panic_print_str()                                 │         38 │     0 │    0 │     0 │     0 │         38 │       0 │        0 │    38 │
 │ esp_panic_handler_increment_entry_count()         │         38 │     0 │    0 │     0 │     0 │         38 │       0 │        0 │    38 │
 │ get_task_affinity()                               │         38 │     0 │    0 │     0 │     0 │         38 │       0 │        0 │    38 │
+│ __esp_system_init_fn_init_brownout()              │         34 │     0 │    0 │     0 │     0 │         34 │       0 │        0 │    34 │
 │ esp_cache_err_get_panic_info()                    │         34 │     0 │    0 │     0 │     0 │         34 │       0 │        0 │    34 │
 │ esp_system_console_put_char()                     │         34 │     0 │    0 │     0 │     0 │         34 │       0 │        0 │    34 │
 │ tick_cb                                           │         32 │    32 │   32 │     0 │     0 │          0 │       0 │        0 │     0 │
@@ -100,7 +101,6 @@
 │ __FUNCTION__.8                                    │         17 │     0 │    0 │     0 │     0 │         17 │      17 │        0 │     0 │
 │ start_cpu0_default()                              │         16 │     0 │    0 │     0 │     0 │         16 │       0 │        0 │    16 │
 │ start_cpu0()                                      │         16 │     0 │    0 │     0 │     0 │         16 │       0 │        0 │    16 │
-│ __esp_system_init_fn_init_brownout()              │         16 │     0 │    0 │     0 │     0 │         16 │       0 │        0 │    16 │
 │ __esp_system_init_fn_init_newlib_time()           │         16 │     0 │    0 │     0 │     0 │         16 │       0 │        0 │    16 │
 │ idle_hook_cb()                                    │         16 │     0 │    0 │     0 │     0 │         16 │       0 │        0 │    16 │
 │ esp_get_minimum_free_heap_size()                  │         16 │     0 │    0 │     0 │     0 │         16 │       0 │        0 │    16 │

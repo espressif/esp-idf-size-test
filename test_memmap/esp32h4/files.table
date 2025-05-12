@@ -52,12 +52,12 @@
 │ newlib_init.c.obj                     │        412 │   156 │    0 │   156 │     0 │   256 │       0 │        0 │   256 │
 │ int_wdt.c.obj                         │        400 │   110 │    8 │     0 │   102 │   290 │       0 │        0 │   290 │
 │ esp_efuse_startup.c.obj               │        386 │     0 │    0 │     0 │     0 │   386 │      56 │        0 │   330 │
+│ startup_funcs.c.obj                   │        382 │     0 │    0 │     0 │     0 │   382 │      72 │        0 │   310 │
 │ panic_handler.c.obj                   │        370 │   100 │    8 │     0 │    92 │   270 │       0 │        0 │   270 │
 │ app_startup.c.obj                     │        370 │     0 │    0 │     0 │     0 │   370 │      32 │        0 │   338 │
 │ libc_a-locale.o                       │        368 │     4 │    0 │     4 │     0 │   364 │     364 │        0 │     0 │
 │ interrupts.c.obj                      │        360 │     0 │    0 │     0 │     0 │   360 │     360 │        0 │     0 │
 │ crosscore_int.c.obj                   │        358 │   200 │    4 │     0 │   196 │   158 │      46 │        0 │   112 │
-│ startup_funcs.c.obj                   │        356 │     0 │    0 │     0 │     0 │   356 │      72 │        0 │   284 │
 │ hello_world_main.c.obj                │        356 │     0 │    0 │     0 │     0 │   356 │       0 │        0 │   356 │
 │ esp_time_impl.c.obj                   │        350 │    12 │   12 │     0 │     0 │   338 │       0 │        0 │   338 │
 │ assert.c.obj                          │        310 │   310 │    0 │     0 │   310 │     0 │       0 │        0 │     0 │

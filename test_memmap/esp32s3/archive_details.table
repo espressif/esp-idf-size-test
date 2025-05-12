@@ -162,6 +162,7 @@
 │ .data                                              │         16 │    0 │     0 │        0 │    16 │    0 │    16 │     0 │          0 │     0 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ .literal.__esp_system_init_fn_init_show_cpu_freq   │         16 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ .literal.__esp_system_init_fn_init_disable_rtc_wdt │         16 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
+│ __esp_system_init_fn_init_brownout()               │         16 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ startup_resume_other_cores()                       │         16 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ .literal.esp_rtc_init                              │         16 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ .literal.esp_cache_err_get_panic_info              │         16 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
@@ -188,7 +189,6 @@
 │ .literal.esp_register_freertos_idle_hook_for_cpu   │         12 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         12 │    12 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ .literal.task_wdt_timeout_handling                 │         12 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         12 │    12 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ do_core_init()                                     │         10 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         10 │    10 │          0 │       0 │        0 │        0 │             0 │           0 │
-│ __esp_system_init_fn_init_brownout()               │         10 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         10 │    10 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ __esp_system_init_fn_init_newlib_time()            │         10 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         10 │    10 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ __esp_system_init_fn_init_apb_dma()                │         10 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         10 │    10 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ esp_cache_err_get_cpuid()                          │         10 │    0 │     0 │        0 │     0 │    0 │     0 │     0 │         10 │    10 │          0 │       0 │        0 │        0 │             0 │           0 │

@@ -78,6 +78,7 @@
 │ panic_print_str()                                 │         38 │    0 │    0 │     0 │     0 │         38 │    38 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ esp_panic_handler_increment_entry_count()         │         38 │    0 │    0 │     0 │     0 │         38 │    38 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ get_task_affinity()                               │         38 │    0 │    0 │     0 │     0 │         38 │    38 │          0 │       0 │        0 │        0 │             0 │           0 │
+│ __esp_system_init_fn_init_brownout()              │         34 │    0 │    0 │     0 │     0 │         34 │    34 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ esp_apb_backup_dma_lock_init()                    │         34 │    0 │    0 │     0 │     0 │         34 │    34 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ tick_cb                                           │         32 │   32 │   32 │     0 │     0 │          0 │     0 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ idle_cb                                           │         32 │   32 │   32 │     0 │     0 │          0 │     0 │          0 │       0 │        0 │        0 │             0 │           0 │
@@ -106,7 +107,6 @@
 │ __FUNCTION__.8                                    │         17 │    0 │    0 │     0 │     0 │          0 │     0 │         17 │      17 │        0 │        0 │             0 │           0 │
 │ start_cpu0_default()                              │         16 │    0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ start_cpu0()                                      │         16 │    0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
-│ __esp_system_init_fn_init_brownout()              │         16 │    0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ __esp_system_init_fn_init_newlib_time()           │         16 │    0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ idle_hook_cb()                                    │         16 │    0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │
 │ esp_get_minimum_free_heap_size()                  │         16 │    0 │    0 │     0 │     0 │         16 │    16 │          0 │       0 │        0 │        0 │             0 │           0 │

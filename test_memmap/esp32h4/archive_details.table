@@ -73,6 +73,7 @@
 │ __func__.0                                        │         32 │     0 │    0 │     0 │     0 │    32 │      32 │        0 │     0 │
 │ panicHandler()                                    │         30 │    30 │    0 │     0 │    30 │     0 │       0 │        0 │     0 │
 │ xt_unhandled_exception()                          │         30 │    30 │    0 │     0 │    30 │     0 │       0 │        0 │     0 │
+│ __esp_system_init_fn_init_brownout()              │         30 │     0 │    0 │     0 │     0 │    30 │       0 │        0 │    30 │
 │ esp_cache_err_get_panic_info()                    │         30 │     0 │    0 │     0 │     0 │    30 │       0 │        0 │    30 │
 │ _esp_error_check_failed()                         │         26 │    26 │    0 │     0 │    26 │     0 │       0 │        0 │     0 │
 │ __c.16                                            │         25 │    25 │    0 │    25 │     0 │     0 │       0 │        0 │     0 │
@@ -124,7 +125,6 @@
 │ g_panic_entry_count                               │          4 │     4 │    0 │     4 │     0 │     0 │       0 │        0 │     0 │
 │ esp_reset_reason_get_hint()                       │          4 │     4 │    0 │     0 │     4 │     0 │       0 │        0 │     0 │
 │ g_startup_fn                                      │          4 │     0 │    0 │     0 │     0 │     4 │       4 │        0 │     0 │
-│ __esp_system_init_fn_init_brownout()              │          4 │     0 │    0 │     0 │     0 │     4 │       0 │        0 │     4 │
 │ esp_cache_err_get_cpuid()                         │          4 │     0 │    0 │     0 │     0 │     4 │       0 │        0 │     4 │
 │ esp_reset_reason_set_hint()                       │          2 │     2 │    0 │     0 │     2 │     0 │       0 │        0 │     0 │
 │ __ubsan_include()                                 │          2 │     2 │    0 │     0 │     2 │     0 │       0 │        0 │     0 │

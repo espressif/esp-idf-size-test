@@ -2,9 +2,9 @@
     "version": "1.0",
     "target": "esp32h4",
     "target_diff": "",
-    "image_size": 111557,
+    "image_size": 111583,
     "image_size_diff": 0,
-    "project_path": "/tmp/tmptv6k_vl8/build/hello_world.map",
+    "project_path": "/tmp/tmp6l8ow0c9/build/hello_world.map",
     "project_path_diff": "",
     "memory_types": {
         "DIRAM": {
@@ -3617,9 +3617,9 @@
             }
         },
         "Flash": {
-            "size": 16777184,
+            "size": 0,
             "size_diff": 0,
-            "used": 80038,
+            "used": 80064,
             "used_diff": 0,
             "sections": {
                 ".flash.rodata": {
@@ -4843,7 +4843,7 @@
                 },
                 ".flash.text": {
                     "abbrev_name": ".text",
-                    "size": 57926,
+                    "size": 57952,
                     "size_diff": 0,
                     "archives": {
                         "esp-idf/esp_timer/libesp_timer.a": {
@@ -4993,7 +4993,7 @@
                         },
                         "esp-idf/esp_system/libesp_system.a": {
                             "abbrev_name": "libesp_system.a",
-                            "size": 6528,
+                            "size": 6554,
                             "size_diff": 0,
                             "object_files": {
                                 "fpga_overrides_clk.c.obj": {
@@ -5096,17 +5096,17 @@
                                 },
                                 "startup_funcs.c.obj": {
                                     "abbrev_name": "startup_funcs.c.obj",
-                                    "size": 284,
+                                    "size": 310,
                                     "size_diff": 0,
                                     "symbols": {
-                                        "__esp_system_init_fn_init_brownout()": {
-                                            "abbrev_name": "__esp_system_init_fn_init_brownout()",
-                                            "size": 4,
-                                            "size_diff": 0
-                                        },
                                         "__esp_system_init_fn_init_show_cpu_freq()": {
                                             "abbrev_name": "__esp_system_init_fn_init_show_cpu_freq()",
                                             "size": 120,
+                                            "size_diff": 0
+                                        },
+                                        "__esp_system_init_fn_init_brownout()": {
+                                            "abbrev_name": "__esp_system_init_fn_init_brownout()",
+                                            "size": 30,
                                             "size_diff": 0
                                         },
                                         "__esp_system_init_fn_init_newlib_time()": {

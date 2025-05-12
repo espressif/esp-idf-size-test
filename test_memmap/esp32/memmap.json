@@ -2,9 +2,9 @@
     "version": "1.0",
     "target": "esp32",
     "target_diff": "",
-    "image_size": 154949,
+    "image_size": 154957,
     "image_size_diff": 0,
-    "project_path": "/tmp/tmptv6k_vl8/build/hello_world.map",
+    "project_path": "/tmp/tmp6l8ow0c9/build/hello_world.map",
     "project_path_diff": "",
     "memory_types": {
         "DRAM": {
@@ -6166,14 +6166,14 @@
             }
         },
         "Flash Code": {
-            "size": 3342304,
+            "size": 0,
             "size_diff": 0,
-            "used": 64438,
+            "used": 64442,
             "used_diff": 0,
             "sections": {
                 ".flash.text": {
                     "abbrev_name": ".text",
-                    "size": 64438,
+                    "size": 64442,
                     "size_diff": 0,
                     "archives": {
                         "esp-idf/esp_timer/libesp_timer.a": {
@@ -6358,7 +6358,7 @@
                         },
                         "esp-idf/esp_system/libesp_system.a": {
                             "abbrev_name": "libesp_system.a",
-                            "size": 7182,
+                            "size": 7188,
                             "size_diff": 0,
                             "object_files": {
                                 "esp_system.c.obj": {
@@ -6442,7 +6442,7 @@
                                 },
                                 "startup_funcs.c.obj": {
                                     "abbrev_name": "startup_funcs.c.obj",
-                                    "size": 200,
+                                    "size": 206,
                                     "size_diff": 0,
                                     "symbols": {
                                         ".literal.__esp_system_init_fn_init_show_cpu_freq": {
@@ -6467,7 +6467,7 @@
                                         },
                                         "__esp_system_init_fn_init_brownout()": {
                                             "abbrev_name": "__esp_system_init_fn_init_brownout()",
-                                            "size": 10,
+                                            "size": 16,
                                             "size_diff": 0
                                         },
                                         "__esp_system_init_fn_init_newlib_time()": {
@@ -9501,7 +9501,7 @@
             }
         },
         "Flash Data": {
-            "size": 4194272,
+            "size": 0,
             "size_diff": 0,
             "used": 30208,
             "used_diff": 0,
@@ -11134,27 +11134,27 @@
         "RTC FAST": {
             "size": 8192,
             "size_diff": 0,
-            "used": 28,
+            "used": 32,
             "used_diff": 0,
             "sections": {
                 ".rtc.force_fast": {
                     "abbrev_name": ".force_fast",
-                    "size": 28,
+                    "size": 32,
                     "size_diff": 0,
                     "archives": {
                         "esp-idf/esp_hw_support/libesp_hw_support.a": {
                             "abbrev_name": "libesp_hw_support.a",
-                            "size": 28,
+                            "size": 32,
                             "size_diff": 0,
                             "object_files": {
                                 "sleep_modes.c.obj": {
                                     "abbrev_name": "sleep_modes.c.obj",
-                                    "size": 28,
+                                    "size": 32,
                                     "size_diff": 0,
                                     "symbols": {
                                         "s_sleep_sub_mode_ref_cnt": {
                                             "abbrev_name": "s_sleep_sub_mode_ref_cnt",
-                                            "size": 28,
+                                            "size": 32,
                                             "size_diff": 0
                                         }
                                     }
