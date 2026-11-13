@@ -4722,13 +4722,35 @@
                                     "abbrev_name": "errno.c.obj",
                                     "size": 4,
                                     "size_diff": 0,
-                                    "symbols": {}
+                                    "symbols": {
+                                        ".tdata.errno": {
+                                            "abbrev_name": ".tdata.errno",
+                                            "size": 4,
+                                            "size_diff": 0
+                                        }
+                                    }
                                 },
                                 "picolibc_init.c.obj": {
                                     "abbrev_name": "picolibc_init.c.obj",
                                     "size": 12,
                                     "size_diff": 0,
-                                    "symbols": {}
+                                    "symbols": {
+                                        ".tdata.tls_stdin": {
+                                            "abbrev_name": ".tdata.tls_stdin",
+                                            "size": 4,
+                                            "size_diff": 0
+                                        },
+                                        ".tdata.tls_stdout": {
+                                            "abbrev_name": ".tdata.tls_stdout",
+                                            "size": 4,
+                                            "size_diff": 0
+                                        },
+                                        ".tdata.tls_stderr": {
+                                            "abbrev_name": ".tdata.tls_stderr",
+                                            "size": 4,
+                                            "size_diff": 0
+                                        }
+                                    }
                                 }
                             }
                         }
